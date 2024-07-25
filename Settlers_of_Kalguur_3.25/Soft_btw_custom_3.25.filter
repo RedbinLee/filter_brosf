@@ -1,18 +1,108 @@
 # NOT ABLE TO FILTER A SPECIFIC UNIQUE ITEM.
 # ONLY AVAILABLE TO FILTER AN UNIQUE ITEM BASED ON THE BASETYPE OF IT
-
+#######################################################################
 
 # Unique items
 # Abysus, Ezomyte Burgonet
 # Bear's Gridle, Leather Belt
+######################################################################
+###########################################################################
+# Unique
+###########################################################################
+###########################################################################
 
 Show
   Rarity == Unique
   BaseType == "Ezomyte Burgonet" "Leather Belt"
 
-
+###########################################################################
+###########################################################################
 # Other than Unique
+###########################################################################
+###########################################################################
 
+# Best items
+Show # Main Weapon
+  BaseType == "Ezomyte Blade"
+  Rarity Rare
+  ItemLevel >= 73
+  PlayEffect Red
+  SetBackgroundColor 0 0 0
+  SetTextColor 191 0 0
+  SetBorderColor 225 225 225
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # Helmet
+  BaseType == "Full Dragonscale" "Generals Brigandine"
+  Rarity Rare
+  ItemLevel	>= 77
+  PlayEffect Red
+  SetBackgroundColor 0 0 0
+  SetTextColor 191 0 0
+  SetBorderColor 225 225 225
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # BodyArmour
+  BaseType == "Pig-Faced Bascinet"
+  Rarity Rare
+  ItemLevel	>= 77
+  PlayEffect Red
+  SetBackgroundColor 0 0 0
+  SetTextColor 191 0 0
+  SetBorderColor 225 225 225
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # Boots
+  BaseType == "Dragonscale Boots"
+  Rarity Rare
+  ItemLevel	>= 76
+  PlayEffect Red
+  SetBackgroundColor 0 0 0
+  SetTextColor 191 0 0
+  SetBorderColor 225 225 225
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # Gloves
+  BaseType == "Dragonscale Gauntlets"
+  Rarity Rare
+  ItemLevel >= 76
+  PlayEffect Red
+  SetBackgroundColor 0 0 0
+  SetTextColor 191 0 0
+  SetBorderColor 225 225 225
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # Amulet
+  BaseType == "Turquoise Amulet"
+  Rarity Rare
+  ItemLevel	>= 72
+  PlayEffect Red
+  SetBackgroundColor 0 0 0
+  SetTextColor 191 0 0
+  SetBorderColor 225 225 225
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # Ring
+  BaseType == "Amethyst Ring"
+  Rarity Rare
+  ItemLevel	>= 72
+  PlayEffect Red
+  SetBackgroundColor 0 0 0
+  SetTextColor 191 0 0
+  SetBorderColor 225 225 225
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+############################################################################
+############################################################################
+
+# General items
 Show # Main Weapon
   Class == "Two Hand Sword"
   MinimapIcon 0 White UpsideDownHouse 
@@ -21,7 +111,7 @@ Show # Main Weapon
   SetTextColor 191 0 0
   SetBorderColor 225 225 225
   SetFontSize 45
-  PlayAlertSound 10 100
+  CustomAlertSound "wow.mp3" 200
 
 Show # 2nd Weapon
   Class == "Boots" "Gloves" "Body Armour"
@@ -33,5 +123,9 @@ Show # 2nd Weapon
   SetTextColor 191 0 0
   SetBorderColor 225 225 225
   SetFontSize 45
-  PlayAlertSound 10 100
 
+Show
+  BaseType == "Amethyst Ring" "Turquoise Amulet"
+
+
+#######################################################################
