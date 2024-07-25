@@ -14,6 +14,13 @@
 Show
   Rarity == Unique
   BaseType == "Ezomyte Burgonet" "Leather Belt"
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
 
 ###########################################################################
 ###########################################################################
@@ -26,21 +33,23 @@ Show # Main Weapon
   BaseType == "Ezomyte Blade"
   Rarity Rare
   ItemLevel >= 73
+  MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 0 0 0
-  SetTextColor 191 0 0
-  SetBorderColor 225 225 225
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
   SetFontSize 45
   CustomAlertSound "wow.mp3" 200
 
 Show # Helmet
-  BaseType == "Full Dragonscale" "Generals Brigandine"
+  BaseType == "Full Dragonscale" "General's Brigandine"
   Rarity Rare
   ItemLevel	>= 77
+  MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 0 0 0
-  SetTextColor 191 0 0
-  SetBorderColor 225 225 225
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
   SetFontSize 45
   CustomAlertSound "wow.mp3" 200
 
@@ -48,10 +57,11 @@ Show # BodyArmour
   BaseType == "Pig-Faced Bascinet"
   Rarity Rare
   ItemLevel	>= 77
+  MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 0 0 0
-  SetTextColor 191 0 0
-  SetBorderColor 225 225 225
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
   SetFontSize 45
   CustomAlertSound "wow.mp3" 200
 
@@ -59,10 +69,11 @@ Show # Boots
   BaseType == "Dragonscale Boots"
   Rarity Rare
   ItemLevel	>= 76
+  MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 0 0 0
-  SetTextColor 191 0 0
-  SetBorderColor 225 225 225
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
   SetFontSize 45
   CustomAlertSound "wow.mp3" 200
 
@@ -70,10 +81,11 @@ Show # Gloves
   BaseType == "Dragonscale Gauntlets"
   Rarity Rare
   ItemLevel >= 76
+  MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 0 0 0
-  SetTextColor 191 0 0
-  SetBorderColor 225 225 225
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
   SetFontSize 45
   CustomAlertSound "wow.mp3" 200
 
@@ -81,10 +93,11 @@ Show # Amulet
   BaseType == "Turquoise Amulet"
   Rarity Rare
   ItemLevel	>= 72
+  MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 0 0 0
-  SetTextColor 191 0 0
-  SetBorderColor 225 225 225
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
   SetFontSize 45
   CustomAlertSound "wow.mp3" 200
 
@@ -92,10 +105,11 @@ Show # Ring
   BaseType == "Amethyst Ring"
   Rarity Rare
   ItemLevel	>= 72
+  MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 0 0 0
-  SetTextColor 191 0 0
-  SetBorderColor 225 225 225
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
   SetFontSize 45
   CustomAlertSound "wow.mp3" 200
 
@@ -103,29 +117,38 @@ Show # Ring
 ############################################################################
 
 # General items
+
 Show # Main Weapon
   Class == "Two Hand Sword"
-  MinimapIcon 0 White UpsideDownHouse 
-  PlayEffect Red
-  SetBackgroundColor 0 0 0
-  SetTextColor 191 0 0
-  SetBorderColor 225 225 225
+  MinimapIcon 0 Blue UpsideDownHouse 
+  PlayEffect Blue
+  SetBackgroundColor 0 22 95
+  SetTextColor 255 255 255
+  SetBorderColor 249 0 0
   SetFontSize 45
-  CustomAlertSound "wow.mp3" 200
+  PlayAlertSound 10 200
 
 Show # 2nd Weapon
   Class == "Boots" "Gloves" "Body Armour"
   BaseArmour > 1
   BaseEvasion > 1
-  MinimapIcon 0 White UpsideDownHouse 
-  PlayEffect Red
-  SetBackgroundColor 0 0 0
-  SetTextColor 191 0 0
-  SetBorderColor 225 225 225
+  MinimapIcon 0 Blue UpsideDownHouse 
+  PlayEffect Blue
+  SetBackgroundColor 0 22 95
+  SetTextColor 255 255 255
+  SetBorderColor 249 0 0
   SetFontSize 45
+  PlayAlertSound 10 200
 
 Show
   BaseType == "Amethyst Ring" "Turquoise Amulet"
-
+  MinimapIcon 0 Blue UpsideDownHouse
+  PlayEffect Blue
+  PlayAlertSound 10 200
+  SetBackgroundColor 0 22 95
+  SetTextColor 255 255 255
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  PlayAlertSound 10 200
 
 #######################################################################
