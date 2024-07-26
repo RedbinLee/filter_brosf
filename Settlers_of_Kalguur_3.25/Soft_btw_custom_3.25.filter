@@ -121,7 +121,7 @@ Show # Ring
 
 Show # Main Weapon
   Class == "Two Hand Sword"
-  Rarity > magic
+  Rarity magic rare
   MinimapIcon 0 Blue Raindrop 
   PlayEffect Blue
   SetBackgroundColor 0 22 95
@@ -132,7 +132,7 @@ Show # Main Weapon
 
 Show # 2nd Weapon
   Class == "Boots" "Gloves" "Body Armour"
-  Rarity > magic
+  Rarity magic rare
   BaseArmour > 1
   BaseEvasion > 1
   BaseEnergyShield < 1
@@ -146,7 +146,7 @@ Show # 2nd Weapon
 
 Show
   BaseType == "Amethyst Ring" "Turquoise Amulet"
-  Rarity > magic
+  Rarity magic rare
   MinimapIcon 0 Blue Raindrop
   PlayEffect Blue
   PlayAlertSound 10 200
