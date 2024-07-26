@@ -221,6 +221,272 @@
 #   [4905] Hide All known Section
 #   [4906] Show All unknown Section
 
+
+# NOT ABLE TO FILTER A SPECIFIC UNIQUE ITEM.
+# ONLY AVAILABLE TO FILTER AN UNIQUE ITEM BASED ON THE BASETYPE OF IT
+#######################################################################
+
+# Unique items
+# Abysus, Ezomyte Burgonet
+# Bear's Gridle, Leather Belt
+######################################################################
+###########################################################################
+# Unique
+###########################################################################
+###########################################################################
+
+Show
+  Rarity Unique
+  BaseType == "Ezomyte Burgonet" "Leather Belt"
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+###########################################################################
+###########################################################################
+# Other than Unique
+###########################################################################
+###########################################################################
+
+# Best items - Mid
+
+Show # Main Weapon
+  BaseType == "Ezomyte Blade"
+  Rarity Rare
+  ItemLevel >= 73
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # Helmet
+  BaseType == "Full Dragonscale" "General's Brigandine"
+  Rarity Rare
+  ItemLevel	>= 77
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # BodyArmour
+  BaseType == "Pig-Faced Bascinet"
+  Rarity Rare
+  ItemLevel	>= 77
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # Boots
+  BaseType == "Dragonscale Boots"
+  Rarity Rare
+  ItemLevel	>= 76
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # Gloves
+  BaseType == "Dragonscale Gauntlets"
+  Rarity Rare
+  ItemLevel >= 76
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # Amulet
+  BaseType == "Turquoise Amulet"
+  Rarity Rare
+  ItemLevel	>= 72
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # Ring
+  BaseType == "Amethyst Ring" "Vermillion Ring"
+  Rarity Rare
+  ItemLevel	>= 72
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # Main Weapon
+  BaseType == "Void Sceptre"
+  Rarity Rare
+  ItemLevel >= 76
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # 2nd Weapon
+  BaseType == "Pinnacle Tower Shield"
+  Rarity Rare
+  ItemLevel >= 75
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # Helmet
+  BaseType == "Royal Burgonet"
+  Rarity Rare
+  ItemLevel >= 82
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # BodyArmour
+  BaseType == "Glorious Plate"
+  Rarity Rare
+  ItemLevel	>= 77
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # Belt
+  BaseType == "Leather Belt"
+  Rarity Rare
+  ItemLevel >= 75
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # Boots
+  BaseType == "Vaal Greaves"
+  Rarity Rare
+  ItemLevel	>= 76
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # Gloves
+  BaseType == "Vaal Gauntlets"
+  Rarity Rare
+  ItemLevel >= 76
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+############################################################################
+############################################################################
+
+# General items
+
+Show # Main Weapon
+  Class == "Two Hand Sword"
+  MinimapIcon 0 Blue Raindrop 
+  PlayEffect Blue
+  SetBackgroundColor 0 22 95
+  SetTextColor 255 255 255
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  PlayAlertSound 10 200
+
+Show # 2nd Weapon
+  Class == "Boots" "Gloves" "Body Armour"
+  BaseArmour > 1
+  BaseEvasion > 1
+  BaseEnergyShield < 1
+  MinimapIcon 0 Blue Raindrop 
+  PlayEffect Blue
+  SetBackgroundColor 0 22 95
+  SetTextColor 255 255 255
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  PlayAlertSound 10 200
+
+Show # Main Weapon
+  Class == "Wand" "One Hand Mace"
+  MinimapIcon 0 Blue Raindrop 
+  PlayEffect Blue
+  SetBackgroundColor 0 22 95
+  SetTextColor 255 255 255
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  PlayAlertSound 10 200
+
+Show # 2nd Weapon
+  Class == "Boots" "Gloves" "Body Armour" "Helmet" 
+  BaseArmour > 1
+  BaseEvasion < 1
+  BaseEnergyShield < 1
+  MinimapIcon 0 Blue Raindrop 
+  PlayEffect Blue
+  SetBackgroundColor 0 22 95
+  SetTextColor 255 255 255
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  PlayAlertSound 10 200
+
+Show
+  BaseType == "Amethyst Ring" "Turquoise Amulet" "Vermillion Ring"
+  MinimapIcon 0 Blue Raindrop
+  PlayEffect Blue
+  PlayAlertSound 10 200
+  SetBackgroundColor 0 22 95
+  SetTextColor 255 255 255
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  PlayAlertSound 10 200
+
+#######################################################################
+
+
 #===============================================================================================================
 # [[0100]] Global overriding rules
 #===============================================================================================================
