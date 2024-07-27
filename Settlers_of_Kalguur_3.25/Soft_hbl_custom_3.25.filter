@@ -143,8 +143,8 @@ Show # Ring
 # Act items
 
 Show # Main Weapon
-  Class == "Wand" "One Hand Mace"
-  Rarity > magic
+  Class == "Wand" "Sceptre"
+  Rarity magic rare
   MinimapIcon 0 Blue Raindrop 
   PlayEffect Blue
   SetBackgroundColor 0 22 95
@@ -155,7 +155,7 @@ Show # Main Weapon
 
 Show # 2nd Weapon
   Class == "Boots" "Gloves" "Body Armour" "Helmet"
-  Rarity > magic
+  Rarity magic rare
   BaseArmour > 1
   BaseEvasion < 1
   BaseEnergyShield < 1
@@ -169,7 +169,7 @@ Show # 2nd Weapon
 
 Show
   BaseType == "Amethyst Ring" "Turquoise Amulet" "Vermillion Ring"
-  Rarity > magic
+  Rarity magic rare
   MinimapIcon 0 Blue Raindrop
   PlayEffect Blue
   PlayAlertSound 10 200

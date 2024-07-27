@@ -453,7 +453,7 @@ Show # 2nd Weapon
   PlayAlertSound 10 200
 
 Show # Main Weapon
-  Class == "Wand" "One Hand Mace"
+  Class == "Wand" "Sceptre"
   Rarity magic rare
   MinimapIcon 0 Blue Raindrop 
   PlayEffect Blue
