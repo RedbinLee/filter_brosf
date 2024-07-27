@@ -143,7 +143,7 @@ Show # Ring
 # Act items
 
 Show # Main Weapon
-  Class == "Wand" "Sceptre"
+  Class == "Wand" "Sceptres"
   Rarity magic rare
   MinimapIcon 0 Blue Raindrop 
   PlayEffect Blue
