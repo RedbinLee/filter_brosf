@@ -137,17 +137,6 @@ Show # Ring
   SetFontSize 45
   CustomAlertSound "wow.mp3" 200
 
-Show # Flask
-  Class Flasks
-  ItemLevel >= 80
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "wow.mp3" 200
-
 Show # minion Weapon1/2
   BaseType == "Calling Wand" "Bone Spirit Shield" 
   Rarity Rare
