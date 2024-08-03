@@ -314,30 +314,7 @@ Show # Gloves
   SetFontSize 45
   CustomAlertSound "wow.mp3" 200
 
-Show # Amulet
-  BaseType == "Turquoise Amulet"
-  Rarity Rare
-  ItemLevel	>= 72
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "wow.mp3" 200
-
-Show # Ring
-  BaseType == "Amethyst Ring" "Vermillion Ring"
-  Rarity Rare
-  ItemLevel	>= 72
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "wow.mp3" 200
-
+# Best items - Mid
 Show # Main Weapon
   BaseType == "Void Sceptre"
   Rarity Rare
@@ -351,7 +328,7 @@ Show # Main Weapon
   CustomAlertSound "wow.mp3" 200
 
 Show # 2nd Weapon
-  BaseType == "Pinnacle Tower Shield"
+  BaseType == "Pinnacle Tower Shield" "Archon Kite Shield"
   Rarity Rare
   ItemLevel >= 75
   MinimapIcon 0 Red Raindrop
@@ -363,7 +340,7 @@ Show # 2nd Weapon
   CustomAlertSound "wow.mp3" 200
 
 Show # Helmet
-  BaseType == "Royal Burgonet"
+  BaseType == "Royal Burgonet" "Bone Helmet"
   Rarity Rare
   ItemLevel >= 82
   MinimapIcon 0 Red Raindrop
@@ -375,7 +352,7 @@ Show # Helmet
   CustomAlertSound "wow.mp3" 200
 
 Show # BodyArmour
-  BaseType == "Glorious Plate"
+  BaseType == "Glorious Plate" "Saintly Chainmail"
   Rarity Rare
   ItemLevel	>= 77
   MinimapIcon 0 Red Raindrop
@@ -414,6 +391,65 @@ Show # Gloves
   BaseType == "Vaal Gauntlets"
   Rarity Rare
   ItemLevel >= 76
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # Amulet
+  BaseType == "Turquoise Amulet"
+  Rarity Rare
+  ItemLevel	>= 72
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # Ring
+  BaseType == "Amethyst Ring" "Vermillion Ring" "Bone Ring"
+  Rarity Rare
+  ItemLevel	>= 72
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # Flask
+  Class Flasks
+  ItemLevel >= 80
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # minion Weapon1/2
+  BaseType == "Calling Wand" "Bone Spirit Shield" 
+  Rarity Rare
+  ItemLevel >= 81
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show # Ghastly Eye Jewel
+  BaseType == "Ghastly Eye Jewel"
+  Rarity Rare
+  ItemLevel >= 78
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -477,11 +513,11 @@ Show # Main Weapon
   PlayAlertSound 10 200
 
 Show # 2nd Weapon
-  Class == "Boots" "Gloves" "Body Armour" "Helmet"
+  Class == "Boots" "Body Armour" "Helmet"
   Rarity rare
   BaseArmour > 1
   BaseEvasion < 1
-  BaseEnergyShield < 1
+  BaseEnergyShield > 1
   MinimapIcon 0 Blue Raindrop 
   PlayEffect Blue
   SetBackgroundColor 0 22 95
@@ -491,7 +527,7 @@ Show # 2nd Weapon
   PlayAlertSound 10 200
 
 Show
-  BaseType == "Amethyst Ring" "Turquoise Amulet" "Vermillion Ring"
+  BaseType == "Amethyst Ring" "Turquoise Amulet" "Vermillion Ring" "Bone Ring"
   Rarity rare
   MinimapIcon 0 Blue Raindrop
   PlayEffect Blue
