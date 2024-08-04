@@ -268,7 +268,7 @@ Show # Main Weapon
   CustomAlertSound "wow.mp3" 200
 
 Show # 2nd Weapon
-  BaseType == "Pinnacle Tower Shield"
+  BaseType == "Ezomyte Tower Shield"
   Rarity Rare
   ItemLevel >= 75
   MinimapIcon 0 Red Raindrop
