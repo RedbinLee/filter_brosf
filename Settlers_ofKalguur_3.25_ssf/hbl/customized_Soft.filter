@@ -1,0 +1,139 @@
+### If you want to change filterblade filter version
+### Go to the bottom of this file and change the imported file name to one of the names below:
+### FilterBlade_0_Soft.filter
+### FilterBlade_1_Soft.filter
+### FilterBlade_2_Semi-Strict.filter
+### FilterBlade_3_Strict.filter
+### FilterBlade_4_Very Strict.filter
+### FilterBlade_5_Uber Strict.filter
+### FilterBlade_6_Uber Plus Strict.filter
+
+#===============================================================================================================
+# Uniuqe
+#===============================================================================================================
+
+Show
+  Rarity Unique
+  BaseType == "Studded Belt"
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+#===============================================================================================================
+# Weapon1
+#===============================================================================================================
+
+Show
+  BaseType == "Runic Hatchet"
+  Rarity Rare
+  ItemLevel >= 54
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+#===============================================================================================================
+# Weapon2
+#===============================================================================================================
+
+Show
+  BaseType == "Elegant Round Shield"
+  Rarity Rare
+  ItemLevel >= 77
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+#===============================================================================================================
+# Helmet
+#===============================================================================================================
+
+Show # Helmet
+  BaseType == "Nightmare Bascinet"
+  Rarity Rare
+  ItemLevel >= 76
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+#===============================================================================================================
+# Body Armour
+#===============================================================================================================
+
+Show # BodyArmour
+  BaseType == "Triumphant Lamellar"
+  Rarity Rare
+  ItemLevel	>= 77
+  LinkedSockets >= 5
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+#===============================================================================================================
+# Gloves
+#===============================================================================================================
+
+BaseType == "Dragonscale Gauntlets"
+  Rarity Rare
+  ItemLevel >= 72
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+#===============================================================================================================
+# Boots
+#===============================================================================================================
+
+BaseType == "Two-Toned Boots"
+  Rarity Rare
+  ItemLevel >= 76
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+#===============================================================================================================
+# Amulet
+#===============================================================================================================
+
+
+
+#===============================================================================================================
+# Ring 1
+#===============================================================================================================
+
+
+
+#===============================================================================================================
+# Ring 2
+#===============================================================================================================
+
+
+
+Import "FilterBlade_0_Soft.filter"
