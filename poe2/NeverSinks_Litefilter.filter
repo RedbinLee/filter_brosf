@@ -22,12 +22,23 @@
 # Overrides - Uniques, Valuables
 #--------------------------
 
+Show # Main Weapon
+  Class == "CROSSBOWS"
+  Rarity magic rare
+  MinimapIcon 0 Blue Raindrop 
+  PlayEffect Blue
+  SetBackgroundColor 0 22 95
+  SetTextColor 255 255 255
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  PlayAlertSound 10 200
+
 Show
 Rarity Unique
 SetTextColor 175 96 37 255
 SetBorderColor 175 96 37 255
 SetBackgroundColor 53 13 13 255
-PlayAlertSound 3 300
+CustomAlertSound "wow.mp3" 200
 PlayEffect Brown
 MinimapIcon 2 Brown Star
 SetFontSize 40
