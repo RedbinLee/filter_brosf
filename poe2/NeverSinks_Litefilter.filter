@@ -23,7 +23,7 @@
 #--------------------------
 
 Show # Main Weapon
-  Class == "Rattling Sceptre"
+  Class == "Sceptres"
   Rarity magic rare
   MinimapIcon 0 Blue Raindrop 
   PlayEffect Blue
