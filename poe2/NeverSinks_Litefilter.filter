@@ -23,7 +23,7 @@
 #--------------------------
 
 Show # Main Weapon
-  Class == "CROSSBOWS"
+  Class == "Rattling Sceptre"
   Rarity magic rare
   MinimapIcon 0 Blue Raindrop 
   PlayEffect Blue
