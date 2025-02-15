@@ -15,7 +15,7 @@
 
 Show
   Rarity Unique
-  BaseType == ""
+  BaseType ""
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -30,7 +30,7 @@ Show
 
 Show
   Rarity Normal, Magic, Rare
-  BaseType == ""
+  BaseType ""
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -46,7 +46,10 @@ Show
 
 Show
   Rarity Normal, Magic, Rare
-  BaseType == ""
+  # BaseType ""
+  BaseArmour
+  BaseEnergyShield
+  BaseEvasion
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -61,7 +64,10 @@ Show
 
 Show
   Rarity Normal, Magic, Rare
-  BaseType == ""
+  # BaseType ""
+  BaseArmour
+  BaseEnergyShield
+  BaseEvasion
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -76,7 +82,10 @@ Show
 
 Show
   Rarity Normal, Magic, Rare
-  BaseType == ""
+  # BaseType ""
+  BaseArmour
+  BaseEnergyShield
+  BaseEvasion
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -91,7 +100,10 @@ Show
 
 Show
   Rarity Normal, Magic, Rare
-  BaseType == ""
+  # BaseType ""
+  BaseArmour
+  BaseEnergyShield
+  BaseEvasion
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -106,7 +118,25 @@ Show
 
 Show
   Rarity Normal, Magic, Rare
-  BaseType == ""
+  # BaseType ""
+  BaseArmour
+  BaseEnergyShield
+  BaseEvasion
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+#===============================================================================================================
+# Belt
+#===============================================================================================================
+
+Show
+  Rarity Normal, Magic, Rare
+  BaseType ""
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -121,7 +151,7 @@ Show
 
 Show
   Rarity Normal, Magic, Rare
-  BaseType == ""
+  BaseType ""
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -131,12 +161,12 @@ Show
   CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
-# Ring 1
+# Ring
 #===============================================================================================================
 
 Show
   Rarity Normal, Magic, Rare
-  BaseType == ""
+  BaseType ""
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -144,6 +174,10 @@ Show
   SetBorderColor 249 0 0
   SetFontSize 45
   CustomAlertSound "wow.mp3" 200
+
+#===============================================================================================================
+# Jewel
+#===============================================================================================================
 
 
 Import "FilterBlade_0_Soft.filter"

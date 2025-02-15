@@ -13,61 +13,171 @@
 # Uniuqe
 #===============================================================================================================
 
-
+Show
+  Rarity Unique
+  BaseType == "Prismatic Ring" "Onyx Amulet" "Cutthroat's Grab" "Girded Tower Shield" "Vaal Rapier" "Imperial Skean" "Jade Amulet" "Timeless Jewel" "Viridian Jewel"
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Weapon1
 #===============================================================================================================
 
-
+Show
+  Rarity Normal, Magic, Rare
+  BaseType == "Ambusher" "Poignard" "Stiletto" "Glass Shank"
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
 
 
 #===============================================================================================================
 # Weapon2
 #===============================================================================================================
 
-
+Show
+  Rarity Normal, Magic, Rare
+  # BaseType == ""
+  BaseArmour < 1
+  BaseEnergyShield < 1
+  BaseEvasion > 1
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Helmet
 #===============================================================================================================
 
-
+Show
+  Rarity Normal, Magic, Rare
+  # BaseType == ""
+  BaseArmour < 1
+  BaseEnergyShield > 1
+  BaseEvasion > 1
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Body Armour
 #===============================================================================================================
 
-
+Show
+  Rarity Normal, Magic, Rare
+  # BaseType == ""
+  BaseArmour < 1
+  BaseEnergyShield < 1
+  BaseEvasion > 1
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Gloves
 #===============================================================================================================
 
-
+Show
+  Rarity Normal, Magic, Rare
+  # BaseType == ""
+  BaseArmour < 1
+  BaseEnergyShield < 1
+  BaseEvasion > 1
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Boots
 #===============================================================================================================
 
+Show
+  Rarity Normal, Magic, Rare
+  # BaseType == ""
+  BaseArmour < 1
+  BaseEnergyShield < 1
+  BaseEvasion > 1
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
 
+#===============================================================================================================
+# Belt
+#===============================================================================================================
+
+Show
+  Rarity Normal, Magic, Rare
+  BaseType "Heavy Belt"
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Amulet
 #===============================================================================================================
 
-
+Show
+  Rarity Normal, Magic, Rare
+  BaseType "Agate Amulet"
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
-# Ring 1
+# Ring
 #===============================================================================================================
 
-
+# Show
+#   Rarity Normal, Magic, Rare
+#   BaseType == ""
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
-# Ring 2
+# Jewel
 #===============================================================================================================
-
 
 
 Import "FilterBlade_0_Soft.filter"
