@@ -15,8 +15,8 @@
 Show
   Rarity Unique
   BaseType == "Prismatic Ring" "Onyx Amulet" "Cutthroat's Garb" "Girded Tower Shield" "Vaal Rapier" "Imperial Skean" "Jade Amulet" "Timeless Jewel" "Viridian Jewel"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
+  MinimapIcon 0 white Raindrop
+  PlayEffect white
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
@@ -30,8 +30,9 @@ Show
 Show
   Rarity Normal Magic Rare
   BaseType "Ambusher" "Poignard" "Stiletto" "Glass Shank"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
+  ItemLevel < 74
+  MinimapIcon 0 Blue Raindrop
+  PlayEffect Blue
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
@@ -60,8 +61,9 @@ Show
   BaseArmour < 1
   BaseEnergyShield < 1
   BaseEvasion > 1
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
+  ItemLevel < 76
+  MinimapIcon 0 Blue Raindrop
+  PlayEffect Blue
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
@@ -85,13 +87,13 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   # BaseType == ""
   BaseArmour < 1
   BaseEnergyShield > 1
   BaseEvasion > 1
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
+  MinimapIcon 0 Blue Raindrop
+  PlayEffect Blue
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
@@ -103,13 +105,13 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   # BaseType == ""
   BaseArmour < 1
   BaseEnergyShield < 1
   BaseEvasion > 1
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
+  MinimapIcon 0 Blue Raindrop
+  PlayEffect Blue
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
@@ -121,13 +123,13 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   # BaseType == ""
   BaseArmour < 1
   BaseEnergyShield < 1
   BaseEvasion > 1
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
+  MinimapIcon 0 Blue Raindrop
+  PlayEffect Blue
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
@@ -139,13 +141,13 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   # BaseType == ""
   BaseArmour < 1
   BaseEnergyShield < 1
   BaseEvasion > 1
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
+  MinimapIcon 0 Blue Raindrop
+  PlayEffect Blue
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
@@ -157,10 +159,10 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   BaseType "Heavy Belt"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
+  MinimapIcon 0 Blue Raindrop
+  PlayEffect Blue
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
@@ -172,10 +174,10 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   BaseType "Agate Amulet"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
+  MinimapIcon 0 Blue Raindrop
+  PlayEffect Blue
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
@@ -210,5 +212,3 @@ Show
 #   SetBorderColor 249 0 0
 #   SetFontSize 45
 #   CustomAlertSound "wow.mp3" 200
-
-Import "FilterBlade_0_Soft.filter"

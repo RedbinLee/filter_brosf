@@ -15,8 +15,8 @@
 Show
   Rarity Unique
   BaseType "Lapis Amulet" "Prismatic Ring" "Prismatic Jewel" "Cobalt Jewel" "Girded Tower Shield"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
+  MinimapIcon 0 white Raindrop
+  PlayEffect white
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
@@ -28,10 +28,11 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Rare
+  Rarity Normal Magic Rare
   BaseType "Hellion's Paw" "Noble Claw" "Tiger's Paw" "Sparkling Claw"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
+  ItemLevel < 74
+  MinimapIcon 0 Blue Raindrop
+  PlayEffect Blue
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
@@ -79,8 +80,8 @@ Show
   BaseArmour < 1
   BaseEnergyShield > 1
   BaseEvasion > 1
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
+  MinimapIcon 0 Blue Raindrop
+  PlayEffect Blue
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
@@ -97,8 +98,9 @@ Show
   BaseArmour < 1
   BaseEnergyShield > 1
   BaseEvasion > 1
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
+  ItemLevel < 84
+  MinimapIcon 0 Blue Raindrop
+  PlayEffect Blue
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
@@ -127,8 +129,9 @@ Show
   BaseArmour < 1
   BaseEnergyShield > 1
   BaseEvasion > 1
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
+  ItemLevel < 76
+  MinimapIcon 0 Blue Raindrop
+  PlayEffect Blue
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
@@ -157,8 +160,9 @@ Show
   BaseArmour < 1 
   BaseEnergyShield > 1
   BaseEvasion > 1
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
+  ItemLevel < 76
+  MinimapIcon 0 Blue Raindrop
+  PlayEffect Blue
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
@@ -220,5 +224,3 @@ Show
 #   SetBorderColor 249 0 0
 #   SetFontSize 45
 #   CustomAlertSound "wow.mp3" 200
-
-Import "FilterBlade_0_Soft.filter"
