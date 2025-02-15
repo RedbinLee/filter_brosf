@@ -1,5 +1,5 @@
-### If you want to change filterblade filter version
-### Go to the bottom of this file and change the imported file name to one of the names below:
+### If you want to change filterblade filter's stricness
+### Go to the bottom of this file to find import part and change the imported file name to one of the names below:
 ### FilterBlade_0_Soft.filter
 ### FilterBlade_1_Soft.filter
 ### FilterBlade_2_Semi-Strict.filter
