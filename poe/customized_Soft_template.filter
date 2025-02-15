@@ -13,61 +13,137 @@
 # Uniuqe
 #===============================================================================================================
 
-
+Show
+  Rarity Unique
+  BaseType == ""
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Weapon1
 #===============================================================================================================
 
-
+Show
+  Rarity Normal, Magic, Rare
+  BaseType == ""
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
 
 
 #===============================================================================================================
 # Weapon2
 #===============================================================================================================
 
-
+Show
+  Rarity Normal, Magic, Rare
+  BaseType == ""
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Helmet
 #===============================================================================================================
 
-
+Show
+  Rarity Normal, Magic, Rare
+  BaseType == ""
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Body Armour
 #===============================================================================================================
 
-
+Show
+  Rarity Normal, Magic, Rare
+  BaseType == ""
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Gloves
 #===============================================================================================================
 
-
+Show
+  Rarity Normal, Magic, Rare
+  BaseType == ""
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Boots
 #===============================================================================================================
 
-
+Show
+  Rarity Normal, Magic, Rare
+  BaseType == ""
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Amulet
 #===============================================================================================================
 
-
+Show
+  Rarity Normal, Magic, Rare
+  BaseType == ""
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Ring 1
 #===============================================================================================================
 
-
-
-#===============================================================================================================
-# Ring 2
-#===============================================================================================================
-
+Show
+  Rarity Normal, Magic, Rare
+  BaseType == ""
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
 
 
 Import "FilterBlade_0_Soft.filter"
