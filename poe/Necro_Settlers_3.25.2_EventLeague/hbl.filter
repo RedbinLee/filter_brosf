@@ -8,6 +8,7 @@
 ### FilterBlade_5_Uber Strict.filter
 ### FilterBlade_6_Uber Plus Strict.filter
 
+Import "twb.filter"
 
 #===============================================================================================================
 # Uniuqe
@@ -30,7 +31,7 @@ Show
 
 Show
   Rarity Normal Magic Rare
-  BaseType == "Ambusher" "Poignard" "Stiletto" "Glass Shank"
+  BaseType "Ambusher" "Poignard" "Stiletto" "Glass Shank"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -39,17 +40,40 @@ Show
   SetFontSize 45
   CustomAlertSound "wow.mp3" 200
 
+Show
+  Rarity Normal Magic Rare
+  BaseType "Ambusher"
+  ItemLevel >= 74
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Weapon2
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   # BaseType == ""
   BaseArmour < 1
   BaseEnergyShield < 1
   BaseEvasion > 1
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show
+  Rarity Normal Magic Rare
+  BaseType "Velour Gloves"
+  ItemLevel >= 76
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
