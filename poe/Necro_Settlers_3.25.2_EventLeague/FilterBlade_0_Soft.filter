@@ -226,6 +226,9 @@
 #===============================================================================================================
 # !! Waypoint c0.alpha : "All Rules - Highest priority - DANGER ZONE"
 
+Import "hbl.filter"
+Import "twb.filter"
+
 Show # $type->6l $tier->hightier
 	Mirrored False
 	Corrupted False
