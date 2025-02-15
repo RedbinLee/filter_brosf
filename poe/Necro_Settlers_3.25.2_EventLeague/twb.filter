@@ -21,7 +21,7 @@ Show
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
   SetFontSize 45
-  CustomAlertSound "wow.mp3" 200
+  CustomAlertSound "metal-alert-effect.mp3" 300
 
 #===============================================================================================================
 # Weapon1
@@ -37,7 +37,7 @@ Show
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
   SetFontSize 45
-  CustomAlertSound "wow.mp3" 200
+  CustomAlertSound "check-mark_effect.mp3" 200
 
 Show
   Rarity Normal Magic Rare
@@ -86,7 +86,7 @@ Show
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
   SetFontSize 45
-  CustomAlertSound "wow.mp3" 200
+  CustomAlertSound "check-mark_effect.mp3" 200
 
 #===============================================================================================================
 # Body Armour
@@ -105,7 +105,7 @@ Show
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
   SetFontSize 45
-  CustomAlertSound "wow.mp3" 200
+  CustomAlertSound "check-mark_effect.mp3" 200
 
 Show
   Rarity Normal Magic Rare
@@ -136,7 +136,7 @@ Show
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
   SetFontSize 45
-  CustomAlertSound "wow.mp3" 200
+  CustomAlertSound "check-mark_effect.mp3" 200
 
 Show
   Rarity Normal Magic Rare
@@ -167,7 +167,7 @@ Show
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
   SetFontSize 45
-  CustomAlertSound "wow.mp3" 200
+  CustomAlertSound "check-mark_effect.mp3" 200
 
 Show
   Rarity Normal Magic Rare
