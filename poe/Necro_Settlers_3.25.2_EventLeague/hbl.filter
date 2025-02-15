@@ -15,7 +15,7 @@
 
 Show
   Rarity Unique
-  BaseType == "Prismatic Ring" "Onyx Amulet" "Cutthroat's Grab" "Girded Tower Shield" "Vaal Rapier" "Imperial Skean" "Jade Amulet" "Timeless Jewel" "Viridian Jewel"
+  BaseType == "Prismatic Ring" "Onyx Amulet" "Cutthroat's Garb" "Girded Tower Shield" "Vaal Rapier" "Imperial Skean" "Jade Amulet" "Timeless Jewel" "Viridian Jewel"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -29,7 +29,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
+  Rarity Normal Magic Rare
   BaseType == "Ambusher" "Poignard" "Stiletto" "Glass Shank"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -45,7 +45,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
+  Rarity Normal Magic Rare
   # BaseType == ""
   BaseArmour < 1
   BaseEnergyShield < 1
@@ -63,7 +63,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
+  Rarity Normal Magic Rare
   # BaseType == ""
   BaseArmour < 1
   BaseEnergyShield > 1
@@ -81,7 +81,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
+  Rarity Normal Magic Rare
   # BaseType == ""
   BaseArmour < 1
   BaseEnergyShield < 1
@@ -99,7 +99,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
+  Rarity Normal Magic Rare
   # BaseType == ""
   BaseArmour < 1
   BaseEnergyShield < 1
@@ -117,7 +117,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
+  Rarity Normal Magic Rare
   # BaseType == ""
   BaseArmour < 1
   BaseEnergyShield < 1
@@ -135,7 +135,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
+  Rarity Normal Magic Rare
   BaseType "Heavy Belt"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -150,7 +150,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
+  Rarity Normal Magic Rare
   BaseType "Agate Amulet"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -165,7 +165,7 @@ Show
 #===============================================================================================================
 
 # Show
-#   Rarity Normal, Magic, Rare
+#   Rarity Normal Magic Rare
 #   BaseType == ""
 #   MinimapIcon 0 Red Raindrop
 #   PlayEffect Red
@@ -179,5 +179,14 @@ Show
 # Jewel
 #===============================================================================================================
 
+# Show
+#   HasExplicitMod >=1 "HONED" "of Infusion" "of Freezing"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "wow.mp3" 200
 
 Import "FilterBlade_0_Soft.filter"
