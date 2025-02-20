@@ -227,13 +227,13 @@
 # !! Waypoint c0.alpha : "All Rules - Highest priority - DANGER ZONE"
 
 #   IMPORT===============================================================================================================
-import "hbl.filter"
-import "twb.filter"
+Import "hbl_bama.filter"
+Import "twb.filter"
 #===============================================================================================================
 
 # Idols===============================================================================================================
 Show
-  Rarity Normal, Magic, Rare
+  Rarity Normal Magic Rare
   BaseType "Idol"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
