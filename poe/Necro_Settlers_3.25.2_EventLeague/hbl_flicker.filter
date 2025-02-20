@@ -28,7 +28,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Magic Rare
   BaseType "Ambusher" "Poignard" "Stiletto" "Glass Shank"
   ItemLevel < 74
   MinimapIcon 0 Blue Raindrop

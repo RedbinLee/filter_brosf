@@ -28,8 +28,8 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
-  BaseType "Hellion's Paw" "Noble Claw" "Tiger's Paw" "Sparkling Claw"
+  Rarity Magic Rare
+  BaseType "Claw" "Paw" "Fangs" "Ripper" "Awl" "Fist" "Gouger" "Stabber" "Blinder"
   ItemLevel < 74
   MinimapIcon 0 Blue Raindrop
   PlayEffect Blue
