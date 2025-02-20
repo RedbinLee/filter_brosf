@@ -94,7 +94,7 @@ Show
 
 Show
   Rarity Rare
-  # BaseType == ""
+  # BaseType ""
   BaseArmour < 1
   BaseEnergyShield > 1
   BaseEvasion > 1

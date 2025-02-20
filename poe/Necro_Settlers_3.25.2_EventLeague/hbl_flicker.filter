@@ -14,7 +14,7 @@
 
 Show
   Rarity Unique
-  BaseType == "Prismatic Ring" "Onyx Amulet" "Cutthroat's Garb" "Girded Tower Shield" "Vaal Rapier" "Imperial Skean" "Jade Amulet" "Timeless Jewel" "Viridian Jewel" "Vaal Mask" "Amethyst Flask"
+  BaseType "Prismatic Ring" "Onyx Amulet" "Cutthroat's Garb" "Girded Tower Shield" "Vaal Rapier" "Imperial Skean" "Jade Amulet" "Timeless Jewel" "Viridian Jewel" "Vaal Mask" "Amethyst Flask"
   MinimapIcon 0 Purple Raindrop
   PlayEffect Purple
   SetBackgroundColor 255 255 255 200
@@ -70,18 +70,6 @@ Show
   SetFontSize 45
   CustomAlertSound "check-mark_effect.mp3" 200
 
-Show
-  Rarity Normal Magic Rare
-  BaseType "Velour Gloves"
-  ItemLevel >= 76
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "wow.mp3" 200
-
 #===============================================================================================================
 # Helmet
 #===============================================================================================================
@@ -135,6 +123,18 @@ Show
   SetBorderColor 249 0 0
   SetFontSize 45
   CustomAlertSound "check-mark_effect.mp3" 200
+
+Show
+  Rarity Normal Magic Rare
+  BaseType "Velour Gloves"
+  ItemLevel >= 76
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Boots

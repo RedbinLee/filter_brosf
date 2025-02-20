@@ -8,31 +8,47 @@
 ### FilterBlade_5_Uber Strict.filter
 ### FilterBlade_6_Uber Plus Strict.filter
 
-
 #===============================================================================================================
 # Uniuqe
 #===============================================================================================================
 
 Show
   Rarity Unique
-  BaseType ""
+  BaseType "Citrine Amulet" "Iron Staff" "Festival Mask" "Silk Gloves" "Reinforced Greaves" "Crude Bow" "Stygian Vise"
   MinimapIcon 0 Purple Raindrop
   PlayEffect Purple
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
   SetFontSize 45
-  CustomAlertSound "metal-alert-effect.mp3" 200
+  CustomAlertSound "metal-alert-effect.mp3" 300
 
 #===============================================================================================================
 # Weapon1
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
-  BaseType ""
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
+  Rarity Normal Magic Rare
+  BaseType "Thicket Bow"
+  ItemLevel < 74
+  MinimapIcon 0 Blue Raindrop
+  PlayEffect Blue
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check-mark_effect.mp3" 200
+  
+#===============================================================================================================
+# Weapon2
+#===============================================================================================================
+
+Show
+  Rarity Rare
+  BaseType "Quiver"
+  ItemLevel < 76
+  MinimapIcon 0 Blue Raindrop
+  PlayEffect Blue
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
@@ -40,9 +56,9 @@ Show
   CustomAlertSound "check-mark_effect.mp3" 200
 
 Show
-  Rarity Rare
-  BaseType ""
-  ItemLevel >= 74
+  Rarity Normal Magic Rare
+  BaseType "Vile Arrow Quiver"
+  ItemLevel >= 76
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -51,155 +67,185 @@ Show
   SetFontSize 45
   CustomAlertSound "wow.mp3" 200
 
-
-#===============================================================================================================
-# Weapon2
-#===============================================================================================================
-
-Show
-  Rarity Normal, Magic, Rare
-  # BaseType ""
-  BaseArmour
-  BaseEnergyShield
-  BaseEvasion
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
-
 #===============================================================================================================
 # Helmet
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
-  # BaseType ""
-  BaseArmour
-  BaseEnergyShield
-  BaseEvasion
+  Rarity Rare
+  # BaseType == ""
+  BaseArmour > 1
+  BaseEnergyShield < 1
+  BaseEvasion > 1
+  MinimapIcon 0 Blue Raindrop
+  PlayEffect Blue
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check-mark_effect.mp3" 200
+
+Show
+  Rarity Normal Magic Rare
+  BaseType "Haunted Bascinet"
+  ItemLevel >= 76
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
   SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Body Armour
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
-  # BaseType ""
-  BaseArmour
-  BaseEnergyShield
-  BaseEvasion
+  Rarity Rare
+  # BaseType == ""
+  BaseArmour > 1
+  BaseEnergyShield < 1
+  BaseEvasion > 1
+  MinimapIcon 0 Blue Raindrop
+  PlayEffect Blue
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check-mark_effect.mp3" 200
+
+Show
+  Rarity Normal Magic Rare
+  BaseType "Conquest Lamellar"
+  ItemLevel >= 76
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
   SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Gloves
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
-  # BaseType ""
-  BaseArmour
-  BaseEnergyShield
-  BaseEvasion
+  Rarity Rare
+  # BaseType == ""
+  BaseArmour > 1
+  BaseEnergyShield < 1
+  BaseEvasion > 1
+  MinimapIcon 0 Blue Raindrop
+  PlayEffect Blue
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check-mark_effect.mp3" 200
+
+Show
+  Rarity Normal Magic Rare
+  BaseType "Wyvernscale Gauntlets"
+  ItemLevel >= 76
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
   SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Boots
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
-  # BaseType ""
-  BaseArmour
-  BaseEnergyShield
-  BaseEvasion
+  Rarity Rare
+  # BaseType == ""
+  BaseArmour > 1
+  BaseEnergyShield < 1
+  BaseEvasion > 1
+  MinimapIcon 0 Blue Raindrop
+  PlayEffect Blue
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check-mark_effect.mp3" 200
+
+Show
+  Rarity Normal Magic Rare
+  BaseType "Dragonscale Boots"
+  ItemLevel >= 76
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
   SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Belt
 #===============================================================================================================
 
-Show
-  Rarity Normal, Magic, Rare
-  BaseType ""
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
+# Show
+#   Rarity Rare
+#   BaseType "Heavy Belt"
+#   MinimapIcon 0 Blue Raindrop
+#   PlayEffect Blue
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check-mark_effect.mp3" 200
 
 #===============================================================================================================
 # Amulet
 #===============================================================================================================
 
-Show
-  Rarity Normal, Magic, Rare
-  BaseType ""
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
+# Show
+#   Rarity Rare
+#   BaseType "Agate Amulet"
+#   MinimapIcon 0 Blue Raindrop
+#   PlayEffect Blue
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check-mark_effect.mp3" 200
 
 #===============================================================================================================
 # Ring
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
-  BaseType ""
+  Rarity Rare
+  BaseType "Bone Ring"
+  ItemLevel > 80
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
   SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Jewel
 #===============================================================================================================
 
- Show
-  HasExplicitMod >= # 1 "HONED" "of Infusion" "of Freezing"
+Show
+  # HasExplicitMod >=1 "HONED" "of Infusion" "of Freezing"
+  Rarity Magic Rare
+  BaseType "Ghastly Eye Jewel"
+  ItemLevel > 83
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
   SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
-
-
-Import "FilterBlade_0_Soft.filter"
+  CustomAlertSound "wow.mp3" 200
