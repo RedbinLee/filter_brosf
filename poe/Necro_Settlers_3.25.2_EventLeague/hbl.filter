@@ -14,7 +14,7 @@
 
 Show
   Rarity Unique
-  BaseType == "Prismatic Ring" "Onyx Amulet" "Cutthroat's Garb" "Girded Tower Shield" "Vaal Rapier" "Imperial Skean" "Jade Amulet" "Timeless Jewel" "Viridian Jewel"
+  BaseType == "Prismatic Ring" "Onyx Amulet" "Cutthroat's Garb" "Girded Tower Shield" "Vaal Rapier" "Imperial Skean" "Jade Amulet" "Timeless Jewel" "Viridian Jewel" "Vaal Mask" "Amethyst Flask"
   MinimapIcon 0 Purple Raindrop
   PlayEffect Purple
   SetBackgroundColor 255 255 255 200
