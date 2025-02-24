@@ -28,8 +28,8 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Magic Rare
-  BaseType "Ambusher" "Poignard" "Stiletto" "Glass Shank"
+  Rarity Rare
+  BaseType "Foil"
   ItemLevel < 74
   MinimapIcon 0 Blue Raindrop
   PlayEffect Blue
@@ -41,7 +41,7 @@ Show
 
 Show
   Rarity Normal Magic Rare
-  BaseType "Ambusher"
+  BaseType "Jewelled Foil"
   ItemLevel >= 74
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
