@@ -29,7 +29,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
+  Rarity Normal Magic Rare
   BaseType ""
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -57,7 +57,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
+  Rarity Normal Magic Rare
   # BaseType ""
   BaseArmour
   BaseEnergyShield
@@ -75,7 +75,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
+  Rarity Normal Magic Rare
   # BaseType ""
   BaseArmour
   BaseEnergyShield
@@ -93,7 +93,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
+  Rarity Normal Magic Rare
   # BaseType ""
   BaseArmour
   BaseEnergyShield
@@ -111,7 +111,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
+  Rarity Normal Magic Rare
   # BaseType ""
   BaseArmour
   BaseEnergyShield
@@ -129,7 +129,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
+  Rarity Normal Magic Rare
   # BaseType ""
   BaseArmour
   BaseEnergyShield
@@ -147,7 +147,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
+  Rarity Normal Magic Rare
   BaseType ""
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -162,7 +162,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
+  Rarity Normal Magic Rare
   BaseType ""
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -177,7 +177,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
+  Rarity Normal Magic Rare
   BaseType ""
   MinimapIcon 0 Red Raindrop
   PlayEffect Red

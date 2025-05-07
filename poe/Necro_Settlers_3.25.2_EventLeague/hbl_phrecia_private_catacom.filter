@@ -141,7 +141,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
+  Rarity Normal Magic Rare
   BaseType "Onyx Amulet"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -156,7 +156,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal, Magic, Rare
+  Rarity Normal Magic Rare
   BaseType "Amethyst"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
