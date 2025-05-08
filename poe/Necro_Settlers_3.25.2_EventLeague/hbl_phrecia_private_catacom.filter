@@ -67,7 +67,6 @@ Show
 Show
   Rarity Rare
   BaseType "Eternal Burgonet" "Royal Burgonet" "Ezomyte Burgonet"
-  BaseEnergyShield < 1
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -158,6 +157,7 @@ Show
 Show
   Rarity Normal Magic Rare
   BaseType "Amethyst"
+  ItemLevel > 71
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
