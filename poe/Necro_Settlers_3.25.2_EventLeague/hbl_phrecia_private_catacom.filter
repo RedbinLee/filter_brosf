@@ -31,7 +31,7 @@ Show
 
 Show
   Rarity Rare
-  BaseType "Karui Maul"
+  BaseType "Karui Maul" "Fishing Rod"
   ItemLevel >= 74
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
