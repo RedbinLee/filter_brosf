@@ -182,4 +182,4 @@ Show
 #   CustomAlertSound "check-mark_effect.mp3" 200
 
 
-Import "FilterBlade_1_Regular.filter"
+Import "FilterBlade_2_Semi-Strict.filter"
