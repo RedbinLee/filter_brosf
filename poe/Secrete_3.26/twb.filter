@@ -1,0 +1,205 @@
+### If you want to change filterblade filter's stricness
+### Go to the bottom of this file to find import part and change the imported file name to one of the names below:
+### FilterBlade_0_Soft.filter
+### FilterBlade_1_Soft.filter
+### FilterBlade_2_Semi-Strict.filter
+### FilterBlade_3_Strict.filter
+### FilterBlade_4_Very Strict.filter
+### FilterBlade_5_Uber Strict.filter
+### FilterBlade_6_Uber Plus Strict.filter
+
+
+#===============================================================================================================
+# Uniuqe
+#===============================================================================================================
+
+Show
+  Rarity Unique
+  BaseType ""
+  MinimapIcon 0 Purple Raindrop
+  PlayEffect Purple
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "metal-alert-effect.mp3" 200
+
+#===============================================================================================================
+# Weapon1
+#===============================================================================================================
+
+Show
+  Rarity Normal Magic Rare
+  BaseType ""
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check-mark_effect.mp3" 200
+
+Show
+  Rarity Rare
+  BaseType ""
+  ItemLevel >= 74
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+
+#===============================================================================================================
+# Weapon2
+#===============================================================================================================
+
+Show
+  Rarity Normal Magic Rare
+  # BaseType ""
+  BaseArmour
+  BaseEnergyShield
+  BaseEvasion
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check-mark_effect.mp3" 200
+
+#===============================================================================================================
+# Helmet
+#===============================================================================================================
+
+Show
+  Rarity Normal Magic Rare
+  # BaseType ""
+  BaseArmour
+  BaseEnergyShield
+  BaseEvasion
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check-mark_effect.mp3" 200
+
+#===============================================================================================================
+# Body Armour
+#===============================================================================================================
+
+Show
+  Rarity Normal Magic Rare
+  # BaseType ""
+  BaseArmour
+  BaseEnergyShield
+  BaseEvasion
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check-mark_effect.mp3" 200
+
+#===============================================================================================================
+# Gloves
+#===============================================================================================================
+
+Show
+  Rarity Normal Magic Rare
+  # BaseType ""
+  BaseArmour
+  BaseEnergyShield
+  BaseEvasion
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check-mark_effect.mp3" 200
+
+#===============================================================================================================
+# Boots
+#===============================================================================================================
+
+Show
+  Rarity Normal Magic Rare
+  # BaseType ""
+  BaseArmour
+  BaseEnergyShield
+  BaseEvasion
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check-mark_effect.mp3" 200
+
+#===============================================================================================================
+# Belt
+#===============================================================================================================
+
+Show
+  Rarity Normal Magic Rare
+  BaseType ""
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check-mark_effect.mp3" 200
+
+#===============================================================================================================
+# Amulet
+#===============================================================================================================
+
+Show
+  Rarity Normal Magic Rare
+  BaseType ""
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check-mark_effect.mp3" 200
+
+#===============================================================================================================
+# Ring
+#===============================================================================================================
+
+Show
+  Rarity Normal Magic Rare
+  BaseType ""
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check-mark_effect.mp3" 200
+
+#===============================================================================================================
+# Jewel
+#===============================================================================================================
+
+ Show
+  HasExplicitMod >= # 1 "HONED" "of Infusion" "of Freezing"
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check-mark_effect.mp3" 200
+
+
+Import "FilterBlade_0_Soft.filter"
