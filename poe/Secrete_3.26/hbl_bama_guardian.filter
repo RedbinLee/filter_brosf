@@ -15,7 +15,7 @@
 
 Show
   Rarity Unique
-  BaseType ""
+  BaseType "Stygian Vise" "Bone Helmet" "Citrine Amulet" "Necromancer Silks"
   MinimapIcon 0 Purple Raindrop
   PlayEffect Purple
   SetBackgroundColor 255 255 255 200
@@ -30,7 +30,8 @@ Show
 
 Show
   Rarity Normal Magic Rare
-  BaseType ""
+  BaseType "Spine Bow"
+  ItemLevel >= 83
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -41,7 +42,7 @@ Show
 
 Show
   Rarity Rare
-  BaseType ""
+  BaseType "Spine Bow"
   ItemLevel >= 74
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -52,16 +53,48 @@ Show
   CustomAlertSound "wow.mp3" 200
 
 
+Show
+  Rarity Normal Magic Rare
+  BaseType "Spine Bow"
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check-mark_effect.mp3" 200
+
 #===============================================================================================================
 # Weapon2
 #===============================================================================================================
 
 Show
   Rarity Normal Magic Rare
-  # BaseType ""
-  BaseArmour
-  BaseEnergyShield
-  BaseEvasion
+  BaseType "Heavy Arrow Quiver"
+  ItemLevel >= 86
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check-mark_effect.mp3" 200
+
+Show
+  Rarity Rare
+  BaseType "Heavy Arrow Quiver"
+  ItemLevel >= 74
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "wow.mp3" 200
+
+Show
+  Rarity Normal Magic Rare
+  BaseType "Heavy Arrow Quiver"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -77,9 +110,9 @@ Show
 Show
   Rarity Normal Magic Rare
   # BaseType ""
-  BaseArmour
-  BaseEnergyShield
-  BaseEvasion
+  BaseArmour > 1
+  BaseEnergyShield < 1
+  BaseEvasion > 1
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -95,9 +128,9 @@ Show
 Show
   Rarity Normal Magic Rare
   # BaseType ""
-  BaseArmour
-  BaseEnergyShield
-  BaseEvasion
+  BaseArmour > 1
+  BaseEnergyShield < 1
+  BaseEvasion > 1
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -113,9 +146,9 @@ Show
 Show
   Rarity Normal Magic Rare
   # BaseType ""
-  BaseArmour
-  BaseEnergyShield
-  BaseEvasion
+  BaseArmour > 1
+  BaseEnergyShield < 1
+  BaseEvasion > 1
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -131,9 +164,9 @@ Show
 Show
   Rarity Normal Magic Rare
   # BaseType ""
-  BaseArmour
-  BaseEnergyShield
-  BaseEvasion
+  BaseArmour > 1
+  BaseEnergyShield < 1
+  BaseEvasion > 1
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -148,7 +181,7 @@ Show
 
 Show
   Rarity Normal Magic Rare
-  BaseType ""
+  BaseType "Stygian Vise" "Leather Belt"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -163,7 +196,7 @@ Show
 
 Show
   Rarity Normal Magic Rare
-  BaseType ""
+  BaseType "Jade Amulet"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -178,7 +211,7 @@ Show
 
 Show
   Rarity Normal Magic Rare
-  BaseType ""
+  BaseType "Bone Ring" "Unset Ring"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -192,7 +225,8 @@ Show
 #===============================================================================================================
 
  Show
-  HasExplicitMod >= # 1 "HONED" "of Infusion" "of Freezing"
+  #HasExplicitMod >= # 1 "HONED" "of Infusion" "of Freezing"
+  BaseType "Medium Cluster Jewel"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
