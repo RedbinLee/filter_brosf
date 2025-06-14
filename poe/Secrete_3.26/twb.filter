@@ -13,16 +13,16 @@
 # Uniuqe
 #===============================================================================================================
 
-Show
-  Rarity Unique
-  BaseType 
-  MinimapIcon 0 Purple Raindrop
-  PlayEffect Purple
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "metal-alert-effect.mp3" 200
+# Show
+#   Rarity Unique
+#   BaseType 
+#   MinimapIcon 0 Purple Raindrop
+#   PlayEffect Purple
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "metal-alert-effect.mp3" 200
 
 #===============================================================================================================
 # Weapon1
