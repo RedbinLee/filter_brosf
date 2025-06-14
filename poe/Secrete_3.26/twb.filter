@@ -30,7 +30,7 @@
 
 Show
   Rarity Normal Magic Rare
-  BaseType "Two Hand Axe"
+  BaseType "Two Hand Axes"
   ItemLevel >= 82
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -42,7 +42,7 @@ Show
 
 Show
   Rarity Rare
-  BaseType "Two Hand Axe"
+  BaseType "Two Hand Axes"
   ItemLevel >= 73
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -54,7 +54,7 @@ Show
 
 Show
   Rarity Normal Magic Rare
-  BaseType "Two Hand Axe"
+  BaseType "Two Hand Axes"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
