@@ -85,11 +85,12 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   # BaseType ""
   BaseArmour > 1
   BaseEnergyShield < 1
   BaseEvasion > 1
+  ItemLevel >= 84
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -103,11 +104,12 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   # BaseType ""
   BaseArmour > 1
   BaseEnergyShield < 1
   BaseEvasion > 1
+  ItemLevel >= 84
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -121,8 +123,9 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   # BaseType ""
+  ItemLevel >= 84
   BaseArmour > 1
   BaseEnergyShield < 1
   BaseEvasion > 1
@@ -139,8 +142,9 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   # BaseType ""
+  ItemLevel >= 84
   BaseArmour > 1
   BaseEnergyShield < 1
   BaseEvasion > 1
@@ -157,8 +161,9 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   BaseType "Stygian Vise" "Leather Belt"
+  ItemLevel >= 84
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -172,8 +177,9 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   BaseType "Jade Amulet"
+  ItemLevel >= 84
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -187,7 +193,8 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
+  ItemLevel >= 84
   BaseType "Bone Ring" "Unset Ring"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
