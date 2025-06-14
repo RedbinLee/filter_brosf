@@ -29,7 +29,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   BaseType "Spine Bow"
   ItemLevel >= 83
   MinimapIcon 0 Red Raindrop
@@ -52,24 +52,12 @@ Show
   SetFontSize 45
   CustomAlertSound "wow.mp3" 200
 
-
-Show
-  Rarity Normal Magic Rare
-  BaseType "Spine Bow"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
-
 #===============================================================================================================
 # Weapon2
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   BaseType "Heavy Arrow Quiver"
   ItemLevel >= 86
   MinimapIcon 0 Red Raindrop
@@ -91,17 +79,6 @@ Show
   SetBorderColor 249 0 0
   SetFontSize 45
   CustomAlertSound "wow.mp3" 200
-
-Show
-  Rarity Normal Magic Rare
-  BaseType "Heavy Arrow Quiver"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
 
 #===============================================================================================================
 # Helmet

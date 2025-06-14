@@ -29,7 +29,7 @@
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   BaseType "Despot Axe" "Vaal Axe" "Void Axe" "Abyssal Axe"
   ItemLevel >= 82
   MinimapIcon 0 Red Raindrop
@@ -51,17 +51,6 @@ Show
   SetBorderColor 249 0 0
   SetFontSize 45
   CustomAlertSound "wow.mp3" 200
-
-Show
-  Rarity Normal Magic Rare
-  BaseType "Despot Axe" "Vaal Axe" "Void Axe" "Abyssal Axe"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
 
 #===============================================================================================================
 # Weapon2
