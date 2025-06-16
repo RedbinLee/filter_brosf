@@ -38,19 +38,8 @@ Show
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
   SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
-
-Show
-  Rarity Rare
-  BaseType "Spine Bow"
-  ItemLevel >= 74
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
   CustomAlertSound "wow.mp3" 200
+  
 
 #===============================================================================================================
 # Weapon2
@@ -66,38 +55,26 @@ Show
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
   SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
-
-Show
-  Rarity Rare
-  BaseType "Heavy Arrow Quiver"
-  ItemLevel >= 74
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
   CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Helmet
 #===============================================================================================================
 
-Show
-  Rarity Rare
-  # BaseType ""
-  BaseArmour > 1
-  BaseEnergyShield < 1
-  BaseEvasion > 1
-  ItemLevel >= 84
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
+# Show
+#   Rarity Rare
+#   # BaseType ""
+#   BaseArmour > 1
+#   BaseEnergyShield < 1
+#   BaseEvasion > 1
+#   ItemLevel >= 84
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check-mark_effect.mp3" 200
 
 #===============================================================================================================
 # Body Armour
@@ -106,8 +83,8 @@ Show
 Show
   Rarity Rare
   # BaseType ""
-  BaseArmour > 1
-  BaseEnergyShield < 1
+  BaseArmour < 1
+  BaseEnergyShield > 1
   BaseEvasion > 1
   ItemLevel >= 84
   MinimapIcon 0 Red Raindrop
