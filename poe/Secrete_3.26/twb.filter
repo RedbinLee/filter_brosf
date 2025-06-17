@@ -40,18 +40,6 @@ Show
   SetFontSize 45
   CustomAlertSound "check-mark_effect.mp3" 200
 
-Show
-  Rarity Rare
-  BaseType "Despot Axe" "Vaal Axe" "Void Axe" "Abyssal Axe"
-  ItemLevel >= 73
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "wow.mp3" 200
-
 #===============================================================================================================
 # Weapon2
 #===============================================================================================================
@@ -75,7 +63,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   # BaseType ""
   ItemLevel >= 84
   BaseArmour > 1
@@ -94,7 +82,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   # BaseType ""
   ItemLevel >= 84
   BaseArmour > 1
@@ -113,7 +101,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   # BaseType ""
   ItemLevel >= 84
   BaseArmour > 1
@@ -132,7 +120,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   # BaseType ""
   ItemLevel >= 84
   BaseArmour > 1
@@ -151,7 +139,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   BaseType "Stygian Vise" "Heavy Belt"
   ItemLevel >= 84
   MinimapIcon 0 Red Raindrop
