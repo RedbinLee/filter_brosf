@@ -13,40 +13,41 @@
 # Uniuqe
 #===============================================================================================================
 
-# Show
-#   Rarity Unique
-#   BaseType 
-#   MinimapIcon 0 Purple Raindrop
-#   PlayEffect Purple
-#   SetBackgroundColor 255 255 255 200
-#   SetTextColor 0 22 95
-#   SetBorderColor 249 0 0
-#   SetFontSize 45
-#   CustomAlertSound "metal-alert-effect.mp3" 200
+Show
+  Rarity Unique
+  BaseType "Prismatic Jewel"
+  MinimapIcon 0 Purple Raindrop
+  PlayEffect Purple
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "metal-alert-effect.mp3" 200
 
 #===============================================================================================================
 # Weapon1
 #===============================================================================================================
 
-Show
-  Rarity Rare
-  BaseType "Profane wand"
-  ItemLevel >= 85
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
+# Show
+#   Rarity Rare
+#   BaseType ""
+#   ItemLevel >= 83
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "wow.mp3" 200
+  
 
 #===============================================================================================================
 # Weapon2
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
-  BaseType "Titanium spirit shield"
+  Rarity Rare
+  BaseType "Titanium Spirit Shield"
   ItemLevel >= 85
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -54,31 +55,50 @@ Show
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
   SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
+  CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Helmet
 #===============================================================================================================
 
-Show
-  Rarity Rare
-  BaseType "Lich's circlet"
-  ItemLevel >= 85
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
+# Show
+#   Rarity Rare
+#   BaseType "Lich's Cir"
+#   ItemLevel >= 84
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check-mark_effect.mp3" 200
 
 #===============================================================================================================
 # Body Armour
 #===============================================================================================================
 
+# Show
+#   Rarity Rare
+#   # BaseType ""
+#   BaseArmour < 1
+#   BaseEnergyShield > 1
+#   BaseEvasion > 1
+#   ItemLevel >= 84
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check-mark_effect.mp3" 200
+
+#===============================================================================================================
+# Gloves
+#===============================================================================================================
+
 Show
   Rarity Rare
-  BaseType "Necrotic armour"
+  BaseType "Warlock Gloves"
   ItemLevel >= 85
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -89,81 +109,61 @@ Show
   CustomAlertSound "check-mark_effect.mp3" 200
 
 #===============================================================================================================
-# Gloves
-#===============================================================================================================
-
-# Show
-#   Rarity Rare
-#   # BaseType ""
-#   ItemLevel >= 84
-#   BaseArmour > 1
-#   BaseEnergyShield < 1
-#   BaseEvasion < 1
-#   MinimapIcon 0 Red Raindrop
-#   PlayEffect Red
-#   SetBackgroundColor 255 255 255 200
-#   SetTextColor 0 22 95
-#   SetBorderColor 249 0 0
-#   SetFontSize 45
-#   CustomAlertSound "check-mark_effect.mp3" 200
-
-#===============================================================================================================
 # Boots
 #===============================================================================================================
 
-# Show
-#   Rarity Rare
-#   # BaseType ""
-#   ItemLevel >= 84
-#   BaseArmour > 1
-#   BaseEnergyShield < 1
-#   BaseEvasion < 1
-#   MinimapIcon 0 Red Raindrop
-#   PlayEffect Red
-#   SetBackgroundColor 255 255 255 200
-#   SetTextColor 0 22 95
-#   SetBorderColor 249 0 0
-#   SetFontSize 45
-#   CustomAlertSound "check-mark_effect.mp3" 200
+Show
+  Rarity Rare
+  BaseType "Warlock Boots"
+  ItemLevel >= 85
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check-mark_effect.mp3" 200
 
 #===============================================================================================================
 # Belt
 #===============================================================================================================
 
-# Show
-#   Rarity Rare
-#   BaseType "Stygian Vise" "Heavy Belt"
-#   ItemLevel >= 84
-#   MinimapIcon 0 Red Raindrop
-#   PlayEffect Red
-#   SetBackgroundColor 255 255 255 200
-#   SetTextColor 0 22 95
-#   SetBorderColor 249 0 0
-#   SetFontSize 45
-#   CustomAlertSound "check-mark_effect.mp3" 200
+Show
+  Rarity Rare
+  BaseType "Stygian Vise"
+  ItemLevel >= 84
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check-mark_effect.mp3" 200
 
 #===============================================================================================================
 # Amulet
 #===============================================================================================================
 
-# Show
-#   Rarity Normal Magic Rare
-#   BaseType ""
-#   MinimapIcon 0 Red Raindrop
-#   PlayEffect Red
-#   SetBackgroundColor 255 255 255 200
-#   SetTextColor 0 22 95
-#   SetBorderColor 249 0 0
-#   SetFontSize 45
-#   CustomAlertSound "check-mark_effect.mp3" 200
+Show
+  Rarity Rare
+  BaseType "Onyx Amulet"
+  ItemLevel >= 85
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check-mark_effect.mp3" 200
 
 #===============================================================================================================
 # Ring
 #===============================================================================================================
 
 # Show
-#   Rarity Normal Magic Rare
-#   # BaseType ""
+#   Rarity Rare
+#   ItemLevel >= 84
+#   BaseType "Bone Ring" "Unset Ring"
 #   MinimapIcon 0 Red Raindrop
 #   PlayEffect Red
 #   SetBackgroundColor 255 255 255 200
@@ -176,15 +176,14 @@ Show
 # Jewel
 #===============================================================================================================
 
-#  Show
-#   HasExplicitMod >= # 1 "HONED" "of Infusion" "of Freezing"
-#   MinimapIcon 0 Red Raindrop
-#   PlayEffect Red
-#   SetBackgroundColor 255 255 255 200
-#   SetTextColor 0 22 95
-#   SetBorderColor 249 0 0
-#   SetFontSize 45
-#   CustomAlertSound "check-mark_effect.mp3" 200
-
-
+ Show
+  HasExplicitMod >= 2 "of Significance" "Glowing" "of the Prodigy"
+  BaseType "Large Cluster Jewel"
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check-mark_effect.mp3" 200
 # Import "FilterBlade_0_Soft.filter"
