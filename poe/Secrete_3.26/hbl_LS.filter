@@ -144,17 +144,17 @@ Show
 # Amulet
 #===============================================================================================================
 
-Show
-  Rarity Rare
-  BaseType "Onyx Amulet"
-  ItemLevel >= 85
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
+# Show
+#   Rarity Rare
+#   BaseType "Onyx Amulet"
+#   ItemLevel >= 85
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check-mark_effect.mp3" 200
 
 #===============================================================================================================
 # Ring
