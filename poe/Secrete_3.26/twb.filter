@@ -28,65 +28,65 @@
 # Weapon1
 #===============================================================================================================
 
-Show
-  Rarity Rare
-  BaseType "Profane wand"
-  ItemLevel >= 85
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
+# Show
+#   Rarity Rare
+#   BaseType "Profane wand"
+#   ItemLevel >= 85
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check-mark_effect.mp3" 200
 
 #===============================================================================================================
 # Weapon2
 #===============================================================================================================
 
-Show
-  Rarity Normal Magic Rare
-  BaseType "Titanium spirit shield"
-  ItemLevel >= 85
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
+# Show
+#   Rarity Normal Magic Rare
+#   BaseType "Titanium spirit shield"
+#   ItemLevel >= 85
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check-mark_effect.mp3" 200
 
 #===============================================================================================================
 # Helmet
 #===============================================================================================================
 
-Show
-  Rarity Rare
-  BaseType "Lich's circlet"
-  ItemLevel >= 85
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
+# Show
+#   Rarity Rare
+#   BaseType "Lich's circlet"
+#   ItemLevel >= 85
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check-mark_effect.mp3" 200
 
 #===============================================================================================================
 # Body Armour
 #===============================================================================================================
 
-Show
-  Rarity Rare
-  BaseType "Necrotic armour"
-  ItemLevel >= 85
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
+# Show
+#   Rarity Rare
+#   BaseType "Necrotic armour"
+#   ItemLevel >= 85
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check-mark_effect.mp3" 200
 
 #===============================================================================================================
 # Gloves
