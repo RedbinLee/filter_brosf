@@ -186,4 +186,17 @@ Show
   SetBorderColor 249 0 0
   SetFontSize 45
   CustomAlertSound "check-mark_effect.mp3" 200
-# Import "FilterBlade_0_Soft.filter"
+
+#===============================================================================================================
+# Flask
+#===============================================================================================================
+
+  Show
+    BaseType "Ruby Flask" "Sapphire Flask"
+    ItemLevel >= 84
+    PlayEffect Red
+    SetBackgroundColor 255 255 255 200
+    SetTextColor 0 22 95
+    SetBorderColor 249 0 0
+    SetFontSize 45
+    CustomAlertSound "check-mark_effect.mp3" 200
