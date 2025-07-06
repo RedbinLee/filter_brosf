@@ -45,17 +45,17 @@ Show
 # Weapon2
 #===============================================================================================================
 
-Show
-  Rarity Rare
-  BaseType "Titanium Spirit Shield"
-  ItemLevel >= 85
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "wow.mp3" 200
+# Show
+#   Rarity Rare
+#   BaseType "Titanium Spirit Shield"
+#   ItemLevel >= 85
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Helmet
@@ -96,33 +96,33 @@ Show
 # Gloves
 #===============================================================================================================
 
-Show
-  Rarity Rare
-  BaseType "Warlock Gloves"
-  ItemLevel >= 85
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
+# Show
+#   Rarity Rare
+#   BaseType "Warlock Gloves"
+#   ItemLevel >= 85
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check-mark_effect.mp3" 200
 
 #===============================================================================================================
 # Boots
 #===============================================================================================================
 
-Show
-  Rarity Rare
-  BaseType "Warlock Boots"
-  ItemLevel >= 85
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check-mark_effect.mp3" 200
+# Show
+#   Rarity Rare
+#   BaseType "Warlock Boots"
+#   ItemLevel >= 85
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check-mark_effect.mp3" 200
 
 #===============================================================================================================
 # Belt
