@@ -83,8 +83,8 @@ Show
 Show
   Rarity Rare
   # BaseType ""
-  BaseArmour < 1
-  BaseEnergyShield > 1
+  BaseArmour > 1
+  BaseEnergyShield < 1
   BaseEvasion > 1
   ItemLevel >= 84
   MinimapIcon 0 Red Raindrop
