@@ -157,8 +157,8 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
-  BaseType ""
+  Rarity Rare
+  BaseType "Amethyst Ring" "Bone Ring"
   ItemLevel >= 84
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
