@@ -79,7 +79,7 @@ Show
 
 Show
   Rarity  Rare
-  BaseType "Triumphant Lamellar" "Full Dragonscale" "Generals Brigandine" "Sadist Garb" "Blood Raiment"
+  BaseType "Triumphant Lamellar" "Full Dragonscale" "General's Brigandine" "Sadist Garb" "Blood Raiment"
   ItemLevel >= 84
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -183,4 +183,4 @@ Show
 #   CustomAlertSound "check-mark_effect.mp3" 200
 
 
-Import "FilterBlade_0_Soft.filter"
+# Import "FilterBlade_0_Soft.filter"
