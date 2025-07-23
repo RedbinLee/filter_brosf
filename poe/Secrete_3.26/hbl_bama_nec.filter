@@ -47,8 +47,9 @@ Show
 
 Show
   Rarity Rare
-  BaseType "Vile Arrow Quiver" "Primal Arrow Quiver"
+  BaseType "Vile Arrow Quiver"
   ItemLevel >= 84
+  HasInfluence Hunter
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
