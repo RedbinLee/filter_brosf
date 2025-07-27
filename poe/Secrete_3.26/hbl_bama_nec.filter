@@ -64,7 +64,7 @@ Show
 
 Show
   Rarity Rare
-  BaseType "Vaal Mask" "Pig-Faced Bascinet" "Nightmare Bascinet"
+  BaseType "Haunted Bascinet"
   ItemLevel >= 84
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
