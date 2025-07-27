@@ -80,7 +80,7 @@ Show
 
 Show
   Rarity  Rare
-  BaseType "Triumphant Lamellar" "Full Dragonscale" "General's Brigandine" "Sadist Garb" "Blood Raiment"
+  BaseType "Conquest Lamellar" "Necrotic Armour"
   ItemLevel >= 84
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -96,7 +96,7 @@ Show
 
 Show
   Rarity Rare
-  BaseType "Murder Mitts" "Dragonscale Gauntlets"
+  BaseType "Phantom Mitts" "Wyvernscale Gauntlets"
   ItemLevel >= 84
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -112,7 +112,7 @@ Show
 
 Show
   Rarity  Rare
-  BaseType "Two-Toned Boots"
+  BaseType "Phantom Boots" "Wyvernscale Boots"
   ItemLevel >= 84
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
