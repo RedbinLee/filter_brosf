@@ -1,0 +1,13 @@
+# Unique items include — consolidated from user screenshots
+# Place this file in the same folder as `hbl_custom_3.27.filter` and import it there.
+
+Show
+  Rarity Unique
+  BaseType "Amethyst Flask" "Full Wyrmscale" "Basalt Flask" "Bone Ring" "Cobalt Jewel" "Magistrate Crown" "Citrine Amulet" "Iron Staff" "Despot Axe" "Leviathan Gauntlets" "Leviathan Greaves" "Magistrate Crown" "Praetor Crown" "Saintly Chainmail" "Silk Slippers" "Tyrant's Sekhem" "Stygian Vise" "Titan Gauntlets" "Titanium Spirit Shield" "Embroidered Gloves" "Reinforced Greaves"
+  MinimapIcon 0 Purple Raindrop
+  PlayEffect Purple
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "metal-alert-effect.mp3" 200

@@ -1,0 +1,124 @@
+# Item Filter — Explanation (friendly, readable)
+
+This file contains a clear, original explanation of Path of Exile's item filter system: what filters are for, how their syntax works, common conditions and actions, and practical examples you can use as templates. The text below is written for readability and to help you author and maintain .filter files.
+
+Note: this is a non‑verbatim explanatory rewrite of the official documentation and examples. For the complete canonical reference and newest tokens, see: https://www.pathofexile.com/item-filter/about
+
+## What is an item filter?
+
+An item filter is a text file that controls which dropped items are shown, hidden, or highlighted in the game. Filters let you control visual appearance (text, colours, icons, effects), sounds, and label size so you see only the loot you care about while playing.
+
+Filters are written as a series of blocks. Each block has a type (Show, Hide, Minimal) and one or more conditions. If an item matches all conditions in a block, the block is considered matched and its actions are applied.
+
+## Core blocks
+
+- Show: items that match are displayed (and can be styled).  
+- Hide: items that match are hidden from view (used in normal filters).  
+- Minimal: items that match get a minimal label (Ruthless filters only).  
+- Continue: can appear inside a Show/Hide/Minimal block to tell the filter engine to continue evaluating later rules even after a match — useful for exceptions and layered rules.  
+- Import "filename": include another .filter file into the current file; use Optional to ignore missing files.
+
+Example (simple):
+
+Show
+    Rarity >= Rare
+
+Hide
+    BaseType "Scroll of Wisdom"
+
+Continue example (useful for exceptions):
+
+Hide
+    ItemLevel < 85
+    Continue
+
+Show
+    ItemLevel > 80
+    Sockets 6
+
+In that sequence, items below level 85 are hidden except those that match the Show rule after Continue.
+
+## Operators
+
+- = or == : equality (== is exact match)  
+- ! or != : not equal  
+- <, <=, >, >= : numeric comparisons
+
+Conditions may accept booleans, numbers, strings, or named enum values. When listing multiple conditions inside a block, they are combined with logical AND — every condition must be true for the block to match.
+
+## Common condition categories
+
+- Identity and rarity: Rarity (Normal/Magic/Rare/Unique), BaseType, Class.  
+- Item properties: ItemLevel, Quality, Width, Height, DropLevel, AreaLevel.  
+- Sockets and links: Sockets, LinkedSockets, SocketGroup (support color tokens like R/G/B/A/D/W).  
+- Defenses/stats: BaseArmour, BaseEvasion, BaseEnergyShield, BaseDefencePercentile.  
+- Influence and special flags: HasInfluence (Shaper/Elder/Crusader/etc.), Corrupted, Mirrored, Replica, Synthesised, Fractured.  
+- Map and content-specific: MapTier, BlightedMap, ShapedMap, UberBlightedMap, ZanaMemory, MemoryStrands.  
+- Gems and enchantments: GemLevel, GemQualityType, HasEnchantment, EnchantmentPassiveNode, EnchantmentPassiveNum.  
+- Mod presence: HasExplicitMod, HasImplicitMod, CorruptedMods, and many named mod checks.
+
+Many conditions accept a numeric value or named string; check the official reference for exact token names and allowed values when you need a precise test.
+
+## Actions — what you can do when a block matches
+
+When an item matches a Show or Minimal block, you can perform actions to change its label and visual/audio cues:
+
+- Visual label changes: SetTextColor, SetBackgroundColor, SetBorderColor, SetFontSize, Minimal (reduce label).  
+- Minimap and icons: MinimapIcon <size> <colour> <shape> to add an icon on your minimap.  
+- Visual effects: PlayEffect <colour> [Temp] to show a beam of light above the item; Temp shows it only while dropping.  
+- Sounds: PlayAlertSound <id> [volume], PlayAlertSoundPositional, CustomAlertSound "file" [volume], CustomAlertSoundOptional.  
+- Drop sound control: DisableDropSound, EnableDropSound, DisableDropSoundIfAlertSound, EnableDropSoundIfAlertSound.
+
+Example highlighting uniques with sound and minimap icon:
+
+Show
+    Rarity == Unique
+    PlayAlertSound 16 100
+    MinimapIcon 2 Cyan Diamond
+    PlayEffect Red Temp
+
+Example styling rares:
+
+Show
+    Rarity >= Rare
+    SetFontSize 30
+    SetTextColor 255 255 0
+
+## Practical tips and best practices
+
+- Order matters: filters are evaluated top to bottom. Place broad hide rules earlier if you want them to be applied first, or use Continue to allow later exceptions.  
+- Use Import to split large filters into logical files (e.g., currency.rules, map.rules, unique.rules).  
+- Test changes incrementally in game; small mistakes can hide valuable items.  
+- Keep commonly changed sections (e.g., loot priorities) near the top for easier editing.  
+- Watch filter compatibility: some actions or blocks are only available in specific filter modes (e.g., Minimal in Ruthless).  
+- When checking exact condition names or new tokens, consult the official documentation link above — the filter language evolves and new tokens appear over time.
+
+## Useful starter templates (copy into your .filter file)
+
+- Hide a common trash item:
+
+Hide
+    BaseType "Scroll of Wisdom"
+
+- Show high-value rares clearly:
+
+Show
+    Rarity >= Rare
+    SetFontSize 28
+    SetTextColor 255 200 100
+
+- Show items with 6 sockets:
+
+Show
+    Sockets 6
+    SetBorderColor 0 200 255
+
+## Final notes
+
+This file is intended as a readable guide to help you author and understand Path of Exile item filters. It intentionally rewrites and condenses the official documentation into practical guidance and examples. If you want, I can now:
+
+- append commonly used templates (currency, maps, gems, uniques), or
+- generate a commented example .filter file that you can drop into the game, or
+- create a Korean translation of this explanation.
+
+Tell me which of those you want next and I will update `d:\Projects\filter_brosf\poe\itemfilter_syntax` accordingly.

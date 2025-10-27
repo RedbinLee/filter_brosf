@@ -1,0 +1,6 @@
+# I want to make a custom filter for specific items in Path of Exile.
+# 1. I want all normal, magic, or rare items that have more than 4 gem slots highlighted.
+# 1-1. weapon1 basetype should be specified and minion-build related.
+# 1-2. other equipment types can be generic. 
+# 2. I want all unique items from a specific list to be highlighted.
+# 3. I want to customize the sound and visual effects for these highlighted items.
