@@ -1,13 +1,5 @@
-### If you want to change filterblade filter's stricness
-### Go to the bottom of this file to find import part and change the imported file name to one of the names below:
-### FilterBlade_0_Soft.filter
-### FilterBlade_1_Soft.filter
-### FilterBlade_2_Semi-Strict.filter
-### FilterBlade_3_Strict.filter
-### FilterBlade_4_Very Strict.filter
-### FilterBlade_5_Uber Strict.filter
-### FilterBlade_6_Uber Plus Strict.filter
-
+### If you want to change the stricness of the filterblade
+### import this customized filter from the particular filter of the filterblade.
 
 #===============================================================================================================
 # Uniuqe
