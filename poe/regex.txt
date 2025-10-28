@@ -1,0 +1,161 @@
+Guide:Regex
+Jump to navigationJump to search
+Regex, or Regular Expressions, are strings of characters that can be used as shorthand to search for one or more specific results. Within the context of Path of Exile, it can be used to filter content in text such as specific stats or modifiers, or for specific item base types.
+
+Stash
+6 Link
+
+  "sockets: ([rgbw]-){5}[rgbw]"
+
+6 Socket
+
+  "sockets: ([rgbw][ -]){5}[rgbw]"
+
+Item Level 1-78
+
+  "item level: ([1-9]$|[1-6][0-9]$|7[0-8])"
+
+Item Level 80+
+
+  "item level: ([1-9]\\d{2,}|[8-9]\\d)"
+
+Quality
+
+  "quality: \\+([1-9][0-9])"
+
+70+ Life
+
+  "([1-9]\\d{2,}|[7-9]\\d).+life"
+
+Chaos Recipe
+
+  "rare"|"item level: ([6][0-9]|[7][0-4])"
+
++1 Wand
+
+  "ll g"
+
+Physical damage
+
+  Glint|Heav
+
+Flat Elemental Damage
+
+  Heat|roste|Humm
+
+Flat Spell Damage
+
+  "e to Sp"
+
+Increased Spell Damage
+
+  Appre
+
+Str/Dex
+
+  "!(^(str|dex))"
+
+Intelligence Items
+
+  "!(^(str|dex))"
+
+Dexterity Items
+
+  "!(^(str|int))"
+
+Strength Items
+
+  "^str" "!(^dex)"
+
+Strength & Dexterity Items
+
+  str: dex:
+
+Strength & Intelligence Items
+
+  dex: str:
+
+Dexterity & Intelligence Items
+
+  dex: int:
+
+Show Maps
+Common, potentially scary map mods players may want to avoid, depending on their build.
+
+No Elemental Reflect
+
+  "!tal d"
+
+No Physical Reflect
+
+  ""!f ph""
+
+No Cannot Regen
+
+  "!ege"
+
+No Cannot Leech
+
+  "!eec"
+
+Or some map mods players may desire:
+
+Rare Monsters each have a Nemesis Mod X% more Rare Monsters
+
+  "neme"
+
+Slaying Enemies close together has a X% chance to attract monsters from Beyond
+
+  "yi"
+
+Area contains two Unique Bosses
+
+  "two"
+
+Magic Monster Packs each have a Bloodline Mod X% more Magic Monsters
+
+  "packs"
+
+Slaying Enemies close together has a X% chance to attract monsters from Beyond
+
+  "yi"
+
+Maps with Favorable Juicing Affixes
+
+  "yi|neme|two|packs|rog|tot"
+
+40%+ Monster Pack Size
+
+  "yi|neme|two|packs|rog|tot" "iz.*([4-9]\\d|\\d{3})"
+
+30 Monster Quantity+
+
+  "m q.*([3-9]\\d|\\d{3})"
+
+Flasks
+Grants Immunity to Bleeding for # seconds if used while Bleeding Grants Immunity to Corrupted Blood for # seconds if used while affected by Corrupted Blood or Immunity to Bleeding and Corrupted Blood during Flask Effect #% less Duration
+
+  "g an|af"
+
+Immunity to Poison during Flask Effect #% less Duration or Grants Immunity to Poison for # seconds if used while Poisoned
+
+  "n fo|on d"
+
+Grants Immunity to Chill for # seconds if used while Chilled Grants Immunity to Freeze for # seconds if used while Frozen or Immunity to Freeze and Chill during Flask Effect #% less Duration
+
+  "ze a|l f"
+
+Instant Recovery #% reduced Amount Recovered or Instant Recovery when on Low Life #% reduced Amount Recovered
+
+  "see|y w"
+
+Expedition
+Disclaimer: Unique item regexes can become outdated as new items are added to the core drop pool and can be highly subjective. It is recommended to create a custom list that suits your own goals or needs.
+
+Gwennen Popular Unique Gambling: Mageblood, Headhunter, Defiance of Destiny, The Squire, Rakiata's Dance, Soul Taker, Ralakesh's Impatience, and all Viridian Jewel uniques (version 3.25.0).
+
+  "vy b|r be|a a|nt ro|eted b|vir|ved g|ege a"
+
+Gwennen Belt Unique Gambling: Only searches for Headhunter or Mageblood.
+
+  "r be|vy b"
