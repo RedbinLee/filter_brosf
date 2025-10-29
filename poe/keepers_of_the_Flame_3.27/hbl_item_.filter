@@ -1,6 +1,16 @@
 ### If you want to change the stricness of the filterblade
 ### import this customized filter from the particular filter of the filterblade.
 
+### If you want to change the default filterblade filter's stricness
+### Go to the bottom of this file to find import part and change the imported file name to one of the names below:
+### Default_0_Soft.filter
+### Default_1_Soft.filter
+### Default_2_Semi-Strict.filter
+### Default_3_Strict.filter
+### Default_4_Very Strict.filter
+### Default_5_Uber Strict.filter
+### Default_6_Uber Plus Strict.filter
+
 #===============================================================================================================
 # Uniuqe
 #===============================================================================================================
@@ -342,4 +352,4 @@ Show # Non-corrupted
   CustomAlertSound "check.mp3" 200
 
 
-Import "Default_all_strictnesses.Default_0_Soft.filter"
+Import "Default_all_strictnesses\Default_0_Soft.filter"
