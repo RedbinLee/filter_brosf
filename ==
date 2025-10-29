@@ -1,14 +1,6 @@
 ﻿About Item Filters
 
 Blocks
-
-| Name | Description |
-| --- | --- |
-| Show | If any items are matched with the conditions in a "Show" Block, the item will be shown. |
-| Hide | If any items are matched with the conditions in a "Hide" Block, the item will be hidden. Only usable in Normal filters. |
-| Minimal | Matched items will have their label set to the minimum size with a transparent background. Only usable in Ruthless filters. |
-| Continue | A "Show", "Hide", or "Minimal" block may use "Continue" to indicate that filter rule matching should not stop when an item matches this block. The example will hide all items dropped below level 85, unless they have 6 sockets and an item level above 80. |
-
 The basic syntax is a collection of Show and Hide blocks that each specify conditions. Anything matched by a Show block will be shown and anything matched by a Hide block will be hidden. If there are multiple conditions in a block then all of them must be matched for the block to match an item.
 
 Name
@@ -50,11 +42,6 @@ Hide
   PlayEffect Blue
 
 Import
-
-| Name | Description |
-| --- | --- |
-| Import | Imports the specified filter contents into the current item filter. Use Optional after the filename to skip the file if it does not exist. |
-
 Imports the specified filter contents into the current item filter. Use Optional after the filename to skip the file if it does not exist.
 Examples
 Import "MyCustomRules.filter"
@@ -101,62 +88,6 @@ Greater than
 Exact match
 
 Conditions
-
-| Condition | Values | Example |
-| --- | --- | --- |
-| AlternateQuality | True / False | AlternateQuality True |
-| AnyEnchantment | True / False | AnyEnchantment True |
-| ArchnemesisMod | Archnemesis modifier name | ArchnemesisMod "Toxic" |
-| AreaLevel | Numeric |  |
-| BaseArmour | Numeric |  |
-| BaseDefencePercentile | Numeric |  |
-| BaseEnergyShield | Numeric |  |
-| BaseEvasion | Numeric |  |
-| BaseType | Item name | BaseType "Thicket Bow" |
-| BaseWard | Numeric |  |
-| BlightedMap | True / False | BlightedMap False |
-| Class | Item class name | Class Currency |
-| Corrupted | True / False | Corrupted True |
-| CorruptedMods | Numeric |  |
-| DropLevel | Numeric |  |
-| ElderItem | True / False | ElderItem True |
-| ElderMap | True / False | ElderMap False |
-| EnchantmentPassiveNode | Cluster Jewel enchantment name | EnchantmentPassiveNode "Damage over Time" |
-| EnchantmentPassiveNum | Numeric |  |
-| FracturedItem | True / False | FracturedItem True |
-| GemLevel | Numeric |  |
-| GemQualityType | Superior, Divergent, Anomalous, Phantasmal | GemQualityType Anomalous |
-| HasCruciblePassiveTree | True / False | HasCruciblePassiveTree True |
-| HasEaterOfWorldsImplicit | Numeric |  |
-| HasEnchantment | Numeric, Enchantment name | HasEnchantment "Enchantment Bane Damage 2" |
-| HasExplicitMod | Numeric, Mod name | HasExplicitMod >=2 "of Haast" "of Tzteosh" "of Ephij" |
-| HasImplicitMod | True / False | HasImplicitMod True |
-| HasInfluence | Shaper, Elder, Crusader, Hunter, Redeemer, Warlord, None | HasInfluence Shaper |
-| HasSearingExarchImplicit | Numeric |  |
-| Height | Numeric |  |
-| Identified | True / False | Identified True |
-| ItemLevel | Numeric |  |
-| LinkedSockets | Numeric |  |
-| MapTier | Numeric |  |
-| MemoryStrands | Numeric |  |
-| Mirrored | True / False | Mirrored False |
-| Quality | Numeric |  |
-| Rarity | Normal, Magic, Rare, Unique | Rarity > Magic |
-| Replica | True / False | Replica True |
-| Scourged | True / False | Scourged True |
-| ShapedMap | True / False | ShapedMap True |
-| ShaperItem | True / False | ShaperItem True |
-| SocketGroup | Numeric, R:Red, G:Green, B:Blue, A:Abyss, D:Delve, W:White | SocketGroup >= 5GGG |
-| Sockets | Numeric, R:Red, G:Green, B:Blue, A:Abyss, D:Delve, W:White | Sockets >= 5GGG |
-| StackSize | Numeric |  |
-| SynthesisedItem | True / False | SynthesisedItem True |
-| TransfiguredGem | True / False, Gem name | TransfiguredGem "Leap Slam" |
-| UberBlightedMap | True / False | UberBlightedMap True |
-| UnidentifiedItemTier | Numeric |  |
-| WaystoneTier | Numeric |  |
-| Width | Numeric |  |
-| ZanaMemory | True / False | ZanaMemory True |
-
 You can set conditions to show or hide items.
 
 Name
