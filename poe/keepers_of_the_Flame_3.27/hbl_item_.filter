@@ -63,7 +63,7 @@ Show # Acts
 
 Show # Endgame Rare
   Rarity Rare
-  BaseType "Convoking Wand"
+  BaseType "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield"
   ItemLevel >= 74
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -75,7 +75,7 @@ Show # Endgame Rare
 
 Show # Endgame Base for crafting
   Rarity Normal Magic Rare
-  BaseType "Convoking Wand"
+  BaseType "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield"
   ItemLevel >= 74
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
