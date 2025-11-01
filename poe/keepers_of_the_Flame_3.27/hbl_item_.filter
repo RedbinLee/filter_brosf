@@ -45,17 +45,17 @@ Show # Endgame Base for crafting
   SetFontSize 45
   CustomAlertSound "metal-alert-effect.mp3" 200
 
-Show # Acts
-  Rarity Normal Magic Rare
-  BaseType "Calling Wand" "Convening Wand" "Convoking Wand"
-  LinkedSockets > 2
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show # Acts
+#   Rarity Normal Magic Rare
+#   BaseType "Calling Wand" "Convening Wand" "Convoking Wand"
+#   LinkedSockets > 2
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
 # Weapon 2 / Shield
@@ -85,17 +85,17 @@ Show # Endgame Base for crafting
   SetFontSize 45
   CustomAlertSound "metal-alert-effect.mp3" 200
 
-Show # Acts
-  Rarity Normal Magic Rare
-  BaseType "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield"
-  LinkedSockets > 2
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show # Acts
+#   Rarity Normal Magic Rare
+#   BaseType "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield"
+#   LinkedSockets > 2
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
 # Helmet
@@ -115,19 +115,19 @@ Show # Rare
   SetFontSize 45
   CustomAlertSound "metal-alert-effect.mp3" 200
 
-Show # Acts
-  Rarity Normal Magic Rare
-  # BaseArmour > 1
-  BaseEnergyShield > 1
-  BaseEvasion < 1
-  LinkedSockets > 3
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show # Acts
+#   Rarity Normal Magic Rare
+#   # BaseArmour > 1
+#   BaseEnergyShield > 1
+#   BaseEvasion < 1
+#   LinkedSockets > 3
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
 # Body Armour
@@ -147,19 +147,19 @@ Show # Rare
   SetFontSize 45
   CustomAlertSound "metal-alert-effect.mp3" 200
 
-Show # Acts
-  Rarity Normal Magic Rare
-  # BaseArmour
-  BaseEnergyShield > 1
-  BaseEvasion < 1
-  LinkedSockets > 3
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show # Acts
+#   Rarity Normal Magic Rare
+#   # BaseArmour
+#   BaseEnergyShield > 1
+#   BaseEvasion < 1
+#   LinkedSockets > 3
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
 # Gloves
@@ -179,20 +179,20 @@ Show # Rare
   SetFontSize 45
   CustomAlertSound "metal-alert-effect.mp3" 200
 
-Show # Acts
-  Rarity Normal Magic Rare
-  # BaseType ""
-  # BaseArmour
-  BaseEnergyShield > 1
-  BaseEvasion < 1
-  LinkedSockets > 3
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show # Acts
+#   Rarity Normal Magic Rare
+#   # BaseType ""
+#   # BaseArmour
+#   BaseEnergyShield > 1
+#   BaseEvasion < 1
+#   LinkedSockets > 3
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
 # Boots
@@ -212,20 +212,20 @@ Show # Rare
   SetFontSize 45
   CustomAlertSound "metal-alert-effect.mp3" 200
 
-Show # Acts
-  Rarity Normal Magic Rare
-  # BaseType ""
-  # BaseArmour
-  BaseEnergyShield > 1
-  BaseEvasion < 1
-  LinkedSockets > 3
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show # Acts
+#   Rarity Normal Magic Rare
+#   # BaseType ""
+#   # BaseArmour
+#   BaseEnergyShield > 1
+#   BaseEvasion < 1
+#   LinkedSockets > 3
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
 # Belt
@@ -233,7 +233,7 @@ Show # Acts
 
 Show # Rare
   Rarity Rare
-  BaseType "Heavy Belt" "Stygian Vise"
+  BaseType "Leather Belt" "Stygian Vise"
   ItemLevel >= 74
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -243,16 +243,16 @@ Show # Rare
   SetFontSize 45
   CustomAlertSound "metal-alert-effect.mp3" 200
 
-Show # Acts
-  Rarity Normal Magic Rare
-  BaseType "Heavy Belt" "Stygian Vise"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show # Acts
+#   Rarity Normal Magic Rare
+#   BaseType "Heavy Belt" "Stygian Vise"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
 # Amulet
@@ -270,16 +270,16 @@ Show # Rare
   SetFontSize 45
   CustomAlertSound "metal-alert-effect.mp3" 200
 
-Show # Acts
-  Rarity Normal Magic Rare
-  BaseType "Onyx Amulet" "Citrine Amulet"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show # Acts
+#   Rarity Normal Magic Rare
+#   BaseType "Onyx Amulet" "Citrine Amulet"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
 # Ring
@@ -297,16 +297,16 @@ Show # Rare
   SetFontSize 45
   CustomAlertSound "metal-alert-effect.mp3" 200
 
-Show # Acts
-  Rarity Normal Magic Rare
-  BaseType "Bone Ring" "Amethyst Ring"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show # Acts
+#   Rarity Normal Magic Rare
+#   BaseType "Bone Ring" "Amethyst Ring"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
 # Jewel
