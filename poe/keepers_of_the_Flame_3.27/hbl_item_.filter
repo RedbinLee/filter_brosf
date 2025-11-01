@@ -135,7 +135,7 @@ Show # Rare
 #===============================================================================================================
 
 Show # Rare
-  Class BodyArmour
+  Class Body Armour
   Rarity Rare
   # BaseArmour > 1
   BaseEnergyShield > 1
