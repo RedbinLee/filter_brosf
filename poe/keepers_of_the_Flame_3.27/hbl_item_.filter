@@ -352,4 +352,4 @@ Show # Non-corrupted
   CustomAlertSound "check.mp3" 200
 
 
-Import "Default_all_strictnesses\Default_0_Soft.filter"
+Import "Default_all_strictnesses\Default_1_Regular.filter"
