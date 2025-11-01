@@ -102,6 +102,7 @@ Show # Endgame Rare
 #===============================================================================================================
 
 Show # Rare
+  Class Helmet
   Rarity Rare
   # BaseArmour > 1
   BaseEnergyShield > 1
@@ -134,6 +135,7 @@ Show # Rare
 #===============================================================================================================
 
 Show # Rare
+  Class BodyArmour
   Rarity Rare
   # BaseArmour > 1
   BaseEnergyShield > 1
@@ -167,6 +169,7 @@ Show # Rare
 #===============================================================================================================
 
 Show # Rare
+  Class Gloves
   Rarity Rare
   # BaseArmour > 1
   BaseEnergyShield > 1
@@ -200,6 +203,7 @@ Show # Rare
 #===============================================================================================================
 
 Show # Rare
+  Class Boots
   Rarity Rare
   # BaseArmour > 1
   BaseEnergyShield > 1
