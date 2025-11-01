@@ -33,17 +33,17 @@ Show # Rare
   SetFontSize 45
   CustomAlertSound "wow.mp3" 200
 
-Show # Endgame Base for crafting
-  Rarity Normal Magic Rare
-  BaseType "Convoking Wand"
-  ItemLevel >= 74
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "metal-alert-effect.mp3" 200
+# Show # Endgame Base for crafting
+#   Rarity Normal Magic Rare
+#   BaseType "Convoking Wand"
+#   ItemLevel >= 74
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "metal-alert-effect.mp3" 200
 
 # Show # Acts
 #   Rarity Normal Magic Rare
@@ -73,17 +73,17 @@ Show # Endgame Rare
   SetFontSize 45
   CustomAlertSound "wow.mp3" 200
 
-Show # Endgame Base for crafting
-  Rarity Normal Magic Rare
-  BaseType "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield"
-  ItemLevel >= 74
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "metal-alert-effect.mp3" 200
+# Show # Endgame Base for crafting
+#   Rarity Normal Magic Rare
+#   BaseType "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield"
+#   ItemLevel >= 74
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "metal-alert-effect.mp3" 200
 
 # Show # Acts
 #   Rarity Normal Magic Rare
@@ -139,6 +139,7 @@ Show # Rare
   BaseEnergyShield > 1
   BaseEvasion < 1
   ItemLevel >= 74
+  LinkedSockets > 4
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -259,7 +260,7 @@ Show # Rare
 #===============================================================================================================
 
 Show # Rare
-  Rarity Normal Magic Rare
+  Rarity Rare
   BaseType "Onyx Amulet" "Citrine Amulet"
   ItemLevel >= 75
   MinimapIcon 0 Red Raindrop
