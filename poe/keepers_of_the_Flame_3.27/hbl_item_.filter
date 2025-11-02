@@ -63,7 +63,7 @@ Show # Rare
 
 Show # Endgame Rare
   Rarity Rare
-  BaseType "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield"
+  BaseType "Fossilised Spirit Shield"
   ItemLevel >= 74
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -103,10 +103,11 @@ Show # Endgame Rare
 
 Show # Rare
   Class Helmet
+  BaseType "Bone Helmet" "Paladin Crown" "Divine Crown"
   Rarity Rare
   # BaseArmour > 1
-  BaseEnergyShield > 1
-  BaseEvasion < 1
+  # BaseEnergyShield > 1
+  # BaseEvasion < 1
   ItemLevel >= 75
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -136,10 +137,11 @@ Show # Rare
 
 Show # Rare
   Class Body Armour
+  BaseType "Sacred Chainmail" "Paladin's Hauberk"
   Rarity Rare
   # BaseArmour > 1
-  BaseEnergyShield > 1
-  BaseEvasion < 1
+  # BaseEnergyShield > 1
+  # BaseEvasion < 1
   ItemLevel >= 74
   LinkedSockets > 4
   MinimapIcon 0 Red Raindrop
@@ -170,10 +172,11 @@ Show # Rare
 
 Show # Rare
   Class Gloves
+  BaseType "Paladin Gloves" "Martyr Gloves"
   Rarity Rare
   # BaseArmour > 1
-  BaseEnergyShield > 1
-  BaseEvasion < 1
+  # BaseEnergyShield > 1
+  # BaseEvasion < 1
   ItemLevel >= 73
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -204,10 +207,11 @@ Show # Rare
 
 Show # Rare
   Class Boots
+  BaseType "Warlock Boots"
   Rarity Rare
   # BaseArmour > 1
-  BaseEnergyShield > 1
-  BaseEvasion < 1
+  # BaseEnergyShield > 1
+  # BaseEvasion < 1
   ItemLevel >= 74
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -357,4 +361,4 @@ Show # Non-corrupted
   CustomAlertSound "check.mp3" 200
 
 
-Import "Default_all_strictnesses\Default_1_Regular.filter"
+Import "Default_all_strictnesses\Default_2_Semi-Strict.filter"
