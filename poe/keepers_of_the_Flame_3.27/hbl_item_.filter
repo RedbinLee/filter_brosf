@@ -242,7 +242,7 @@ Show # Rare
 
 Show # Rare
   Rarity Rare
-  BaseType "Leather Belt" "Stygian Vise"
+  BaseType "Stygian Vise"
   ItemLevel >= 74
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -267,17 +267,17 @@ Show # Rare
 # Amulet
 #===============================================================================================================
 
-Show # Rare
-  Rarity Rare
-  BaseType "Onyx Amulet" "Citrine Amulet"
-  ItemLevel >= 75
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "metal-alert-effect.mp3" 200
+# Show # Rare
+#   Rarity Rare
+#   BaseType "Onyx Amulet" "Citrine Amulet"
+#   ItemLevel >= 75
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "metal-alert-effect.mp3" 200
 
 # Show # Acts
 #   Rarity Normal Magic Rare
@@ -296,7 +296,7 @@ Show # Rare
 
 Show # Rare
   Rarity Rare
-  BaseType "Bone Ring" "Amethyst Ring"
+  BaseType "Bone Ring"
   ItemLevel >= 61
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
