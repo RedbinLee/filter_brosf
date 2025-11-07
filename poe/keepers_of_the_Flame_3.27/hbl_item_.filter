@@ -24,6 +24,7 @@ Import "unique_items.filter"
 Show # Rare
   Rarity Rare
   BaseType "Convoking Wand"
+  HasExplicitMod >= 1 "Magister's" "Martinet's"
   ItemLevel >= 74
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
