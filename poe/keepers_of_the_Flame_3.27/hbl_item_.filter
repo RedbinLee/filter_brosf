@@ -240,17 +240,17 @@ Show # Rare
 # Belt
 #===============================================================================================================
 
-Show # Rare
-  Rarity Rare
-  BaseType "Stygian Vise"
-  ItemLevel >= 74
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "metal-alert-effect.mp3" 200
+# Show # Rare
+#   Rarity Rare
+#   BaseType "Stygian Vise"
+#   ItemLevel >= 74
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "metal-alert-effect.mp3" 200
 
 # Show # Acts
 #   Rarity Normal Magic Rare
