@@ -210,7 +210,7 @@ Show # Rare
 Show # Rare
   Class Boots
   # BaseType "Warlock Boots" "Paladin Boots"
-  Rarity Rare
+  Rarity Normal Magic Rare
   # BaseArmour > 1
   # BaseEnergyShield > 1
   BaseEvasion < 1
