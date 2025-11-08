@@ -209,12 +209,13 @@ Show # Rare
 
 Show # Rare
   Class Boots
-  BaseType "Warlock Boots"
+  # BaseType "Warlock Boots" "Paladin Boots"
   Rarity Rare
   # BaseArmour > 1
   # BaseEnergyShield > 1
-  # BaseEvasion < 1
-  ItemLevel >= 74
+  BaseEvasion < 1
+  HasInfluence Elder
+  ItemLevel >= 85
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
