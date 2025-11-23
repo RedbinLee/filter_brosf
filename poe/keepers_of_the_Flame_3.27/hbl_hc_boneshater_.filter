@@ -81,6 +81,7 @@ Show
 
 Show
   Rarity Rare
+  Class Helmet
   # BaseType ""
   BaseArmour > 1
   # BaseEnergyShield
@@ -100,6 +101,7 @@ Show
 
 Show
   Rarity Rare
+  Class Body Armour
   # BaseType ""
   BaseArmour > 1
   # BaseEnergyShield
@@ -119,6 +121,7 @@ Show
 
 Show
   Rarity Rare
+  Class Gloves
   # BaseType ""
   BaseArmour > 1
   # BaseEnergyShield
@@ -138,6 +141,7 @@ Show
 
 Show
   Rarity Rare
+  Class Boots
   # BaseType ""
   BaseArmour > 1
   # BaseEnergyShield
