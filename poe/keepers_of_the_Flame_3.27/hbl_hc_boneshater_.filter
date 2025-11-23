@@ -211,4 +211,4 @@ Show
 #   CustomAlertSound "check.mp3" 200
 
 
-Import "Default_all_strictnesses\Default_0_Soft.filter"
+Import "Default_all_strictnesses\Default_2_Semi-Strict.filter"
