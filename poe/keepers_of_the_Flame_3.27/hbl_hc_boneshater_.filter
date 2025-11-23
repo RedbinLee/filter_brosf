@@ -146,7 +146,7 @@ Show
   BaseArmour > 1
   # BaseEnergyShield
   # BaseEvasion
-	LinkedSockets >= 3
+	# LinkedSockets >= 3
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
