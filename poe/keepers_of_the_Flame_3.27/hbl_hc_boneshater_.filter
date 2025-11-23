@@ -31,21 +31,21 @@
 # Weapon1
 #===============================================================================================================
 
-Show
-  Rarity Normal Magic Rare
-	Class "Two Hand Axes"
-  # BaseType ""
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Normal Magic Rare
+# 	Class "Two Hand Axes"
+#   # BaseType ""
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 Show
   Rarity Rare
-  BaseType "Despot Axe"
+  BaseType "Despot Axe" "Sundering Axe"
   ItemLevel >= 74
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -79,12 +79,12 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   # BaseType ""
   BaseArmour > 1
   # BaseEnergyShield
   # BaseEvasion
-	LinkedSockets >= 3
+	# LinkedSockets >= 4
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -98,12 +98,12 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   # BaseType ""
   BaseArmour > 1
   # BaseEnergyShield
   # BaseEvasion
-	LinkedSockets >= 3
+	# LinkedSockets >= 4
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -117,12 +117,12 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   # BaseType ""
   BaseArmour > 1
   # BaseEnergyShield
   # BaseEvasion
-	LinkedSockets >= 3
+	# LinkedSockets >= 4
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -136,7 +136,7 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   # BaseType ""
   BaseArmour > 1
   # BaseEnergyShield
