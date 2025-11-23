@@ -47,6 +47,7 @@ Show
   Rarity Rare
   BaseType "Despot Axe" "Sundering Axe"
   ItemLevel >= 74
+  LinkedSockets >= 6
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -103,7 +104,7 @@ Show
   BaseArmour > 1
   # BaseEnergyShield
   # BaseEvasion
-	# LinkedSockets >= 4
+	LinkedSockets >= 6
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -171,7 +172,7 @@ Show
 
 Show
   Rarity Rare
-  BaseType "Lapis Amulet" "Turquoise Amulet" "Onyx Amulet" "Agate Amulet"
+  BaseType "Turquoise Amulet" "Onyx Amulet"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
