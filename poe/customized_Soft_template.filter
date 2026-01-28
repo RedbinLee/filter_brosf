@@ -204,4 +204,4 @@ Show
   CustomAlertSound "check.mp3" 200
 
 
-# Import "Default_0_Soft.filter"
+# Import "Default_all_strictnesses\nameofthefilter.filter"
