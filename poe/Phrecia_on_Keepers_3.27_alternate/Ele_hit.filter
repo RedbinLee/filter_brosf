@@ -17,7 +17,7 @@
 
 Show
   Rarity Normal Magic Rare
-  BaseType "Molten Xophgraft" "Hardening Uulgraft" "Flamecaller Xophgraft"
+  BaseType "Storming Eshgraft" "Molten Xophgraft"
   MinimapIcon 0 Purple Raindrop
   PlayEffect Purple
   SetBackgroundColor 255 255 255 200
@@ -46,9 +46,9 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Rare
+  Rarity Normal Magic Rare
   BaseType "Imperial Claw"
-  ItemLevel >= 74
+  ItemLevel >= 73
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
@@ -57,23 +57,23 @@ Show
   SetFontSize 45
   CustomAlertSound "metal-alert-effect.mp3" 200
 
-Show
-  Rarity Normal Magic Rare
-  BaseType "Claw"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Normal Magic Rare
+#   BaseType "Claw"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
 # Weapon2
 #===============================================================================================================
 
 Show
-  Rarity Rare
+  Rarity Normal Magic Rare
   BaseType "Vaal Buckler"
   ItemLevel >= 74
   MinimapIcon 0 Red Raindrop
@@ -102,103 +102,103 @@ Show
 # Helmet
 #===============================================================================================================
 
-Show
-  Rarity Rare
-  # BaseType ""
-  BaseArmour < 1
-  BaseEnergyShield < 1
-  BaseEvasion > 1
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Rare
+#   # BaseType ""
+#   BaseArmour < 1
+#   BaseEnergyShield < 1
+#   BaseEvasion > 1
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
 # Body Armour
 #===============================================================================================================
 
-Show
-  Rarity Rare
-  # BaseType ""
-  BaseArmour < 1
-  BaseEnergyShield < 1
-  BaseEvasion > 1
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Rare
+#   # BaseType ""
+#   BaseArmour < 1
+#   BaseEnergyShield < 1
+#   BaseEvasion > 1
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
 # Gloves
 #===============================================================================================================
 
-Show
-  Rarity Rare
-  # BaseType ""
-  BaseArmour < 1
-  BaseEnergyShield < 1
-  BaseEvasion > 1
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Rare
+#   # BaseType ""
+#   BaseArmour < 1
+#   BaseEnergyShield < 1
+#   BaseEvasion > 1
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
 # Boots
 #===============================================================================================================
 
-Show
-  Rarity Rare
-  # BaseType ""
-  BaseArmour < 1
-  BaseEnergyShield < 1
-  BaseEvasion > 1
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Rare
+#   # BaseType ""
+#   BaseArmour < 1
+#   BaseEnergyShield < 1
+#   BaseEvasion > 1
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
 # Belt
 #===============================================================================================================
 
-Show
-  Rarity Normal Magic Rare
-  BaseType "Heavy Belt"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Normal Magic Rare
+#   BaseType "Heavy Belt"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
 # Amulet
 #===============================================================================================================
 
-Show
-  Rarity Normal Magic Rare
-  BaseType "Onyx Amulet"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Normal Magic Rare
+#   BaseType "Onyx Amulet"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
 # Ring
