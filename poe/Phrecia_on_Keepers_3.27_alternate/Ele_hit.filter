@@ -189,16 +189,16 @@ Show
 # Amulet
 #===============================================================================================================
 
-# Show
-#   Rarity Normal Magic Rare
-#   BaseType "Onyx Amulet"
-#   MinimapIcon 0 Red Raindrop
-#   PlayEffect Red
-#   SetBackgroundColor 255 255 255 200
-#   SetTextColor 0 22 95
-#   SetBorderColor 249 0 0
-#   SetFontSize 45
-#   CustomAlertSound "check.mp3" 200
+Show
+  Rarity Rare
+  BaseType "Agate Amulet"
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
 # Ring
