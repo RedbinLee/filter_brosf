@@ -230,4 +230,4 @@ Show
 #   CustomAlertSound "check.mp3" 200
 
 
-Import "Default_all_strictnesses\Default_4_Very Strict.filte"
+Import "Default_all_strictnesses\Default_4_Very Strict.filter"
