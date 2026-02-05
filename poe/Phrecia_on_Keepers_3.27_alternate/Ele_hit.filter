@@ -45,17 +45,17 @@ Show
 # Weapon1
 #===============================================================================================================
 
-Show
-  Rarity Normal Magic Rare
-  BaseType "Imperial Claw"
-  ItemLevel >= 73
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "metal-alert-effect.mp3" 200
+# Show
+#   Rarity Normal Magic Rare
+#   BaseType "Imperial Claw"
+#   ItemLevel >= 73
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "metal-alert-effect.mp3" 200
 
 # Show
 #   Rarity Normal Magic Rare
@@ -72,17 +72,17 @@ Show
 # Weapon2
 #===============================================================================================================
 
-Show
-  Rarity Normal Magic Rare
-  BaseType "Vaal Buckler"
-  ItemLevel >= 74
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "metal-alert-effect.mp3" 200
+# Show
+#   Rarity Normal Magic Rare
+#   BaseType "Vaal Buckler"
+#   ItemLevel >= 74
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "metal-alert-effect.mp3" 200
 
 # Show
 #   Rarity Normal Magic Rare
@@ -189,16 +189,16 @@ Show
 # Amulet
 #===============================================================================================================
 
-Show
-  Rarity Rare
-  BaseType "Agate Amulet"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Rare
+#   BaseType "Agate Amulet"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
 # Ring
