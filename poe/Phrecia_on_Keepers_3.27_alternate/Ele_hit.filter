@@ -15,31 +15,31 @@
 # Event
 #===============================================================================================================
 
-Show
-  Rarity Normal Magic Rare
-  BaseType "Storming Eshgraft" "Molten Xophgraft"
-  MinimapIcon 0 Purple Raindrop
-  PlayEffect Purple
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "wow.mp3" 200
+# Show
+#   Rarity Normal Magic Rare
+#   BaseType "Storming Eshgraft" "Molten Xophgraft"
+#   MinimapIcon 0 Purple Raindrop
+#   PlayEffect Purple
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Uniuqe
 #===============================================================================================================
 
-Show
-  Rarity Unique
-  BaseType "Prismatic Ring" #After 4 Stone "Antique Gauntlets" "Onyx Amulet" "Opal Ring"
-  MinimapIcon 0 Purple Raindrop
-  PlayEffect Purple
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "wow.mp3" 200
+# Show
+#   Rarity Unique
+#   BaseType "Prismatic Ring" #After 4 Stone "Antique Gauntlets" "Onyx Amulet" "Opal Ring"
+#   MinimapIcon 0 Purple Raindrop
+#   PlayEffect Purple
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "wow.mp3" 200
 
 #===============================================================================================================
 # Weapon1
@@ -47,9 +47,9 @@ Show
 
 Show
   Rarity Normal Magic Rare
-  BaseType "Claw"
-  HasInfluence Shaper Elder
-  ItemLevel >= 73
+  BaseType "Imperial Claw"
+  # HasInfluence Shaper Elder
+  ItemLevel >= 83
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
