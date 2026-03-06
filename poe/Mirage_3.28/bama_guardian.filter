@@ -31,19 +31,41 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
-  BaseType "Ivory Bow" "Spine Bow"
+  Rarity Normal 
+  BaseType "Convoking Wand" "Convening Wand" "Calling Wand" "Ivory Bow" "Spine Bow" "Nailed Fist" "Cat's Paw" "Sparkling Claw" "Tiger's Paw" "Noble Claw" "Hellion's Paw" "Imperial Claw"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
-  SetBorderColor 249 0 0
+  SetBorderColor 119 112 121
+  SetFontSize 45
+  CustomAlertSound "check.mp3" 200
+
+Show
+  Rarity Magic
+  BaseType "Convoking Wand" "Convening Wand" "Calling Wand" "Ivory Bow" "Spine Bow" "Nailed Fist" "Cat's Paw" "Sparkling Claw" "Tiger's Paw" "Noble Claw" "Hellion's Paw" "Imperial Claw"
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 17 0 249
   SetFontSize 45
   CustomAlertSound "check.mp3" 200
 
 Show
   Rarity Rare
-  BaseType "Ivory Bow" "Spine Bow"
+  BaseType "Convoking Wand" "Convening Wand" "Calling Wand" "Ivory Bow" "Spine Bow" "Nailed Fist" "Cat's Paw" "Sparkling Claw" "Tiger's Paw" "Noble Claw" "Hellion's Paw" "Imperial Claw"
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 245 0
+  SetFontSize 45
+  CustomAlertSound "check.mp3" 200
+
+Show
+  Rarity Rare
+  BaseType "Convoking Wand" "Spine Bow" "Imperial Claw"
   ItemLevel >= 74
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
