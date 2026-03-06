@@ -35,7 +35,7 @@ Show
   BaseType "Convoking Wand" "Convening Wand" "Calling Wand" "Ivory Bow" "Spine Bow" "Nailed Fist" "Cat's Paw" "Sparkling Claw" "Tiger's Paw" "Noble Claw" "Hellion's Paw" "Imperial Claw"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 255 255 255 200
+  SetBackgroundColor 208 205 205 200
   SetTextColor 0 22 95
   SetBorderColor 119 112 121
   SetFontSize 45
@@ -46,22 +46,12 @@ Show
   BaseType "Convoking Wand" "Convening Wand" "Calling Wand" "Ivory Bow" "Spine Bow" "Nailed Fist" "Cat's Paw" "Sparkling Claw" "Tiger's Paw" "Noble Claw" "Hellion's Paw" "Imperial Claw"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 255 255 255 200
+  SetBackgroundColor 179 163 249 200
   SetTextColor 0 22 95
   SetBorderColor 17 0 249
   SetFontSize 45
   CustomAlertSound "check.mp3" 200
 
-Show
-  Rarity Rare
-  BaseType "Convoking Wand" "Convening Wand" "Calling Wand" "Ivory Bow" "Spine Bow" "Nailed Fist" "Cat's Paw" "Sparkling Claw" "Tiger's Paw" "Noble Claw" "Hellion's Paw" "Imperial Claw"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 245 0
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
 
 Show
   Rarity Rare
@@ -69,9 +59,9 @@ Show
   ItemLevel >= 74
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 255 255 255 200
+  SetBackgroundColor 208 242 135 200
   SetTextColor 0 22 95
-  SetBorderColor 249 0 0
+  SetBorderColor 242 255 0
   SetFontSize 45
   CustomAlertSound "metal-alert-effect.mp3" 200
 
@@ -81,13 +71,35 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Normal
   BaseType "Penetrating Arrow Quiver" "Broadhead Arrow Quiver"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
   SetBackgroundColor 255 255 255 200
   SetTextColor 0 22 95
-  SetBorderColor 249 0 0
+  SetBorderColor 187 196 214
+  SetFontSize 45
+  CustomAlertSound "check.mp3" 200
+
+Show
+  Rarity Magic 
+  BaseType "Penetrating Arrow Quiver" "Broadhead Arrow Quiver"
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 70 42 248 200
+  SetTextColor 0 22 95
+  SetBorderColor 46 0 249
+  SetFontSize 45
+  CustomAlertSound "check.mp3" 200
+
+Show
+  Rarity Rare
+  BaseType "Penetrating Arrow Quiver" "Broadhead Arrow Quiver"
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 211 243 33 200
+  SetTextColor 0 22 95
+  SetBorderColor 232 249 0
   SetFontSize 45
   CustomAlertSound "check.mp3" 200
 
@@ -114,42 +126,42 @@ Show
 #===============================================================================================================
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Normal
   # BaseType ""
   BaseArmour > 1
   BaseEnergyShield < 1
   BaseEvasion > 1
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 255 255 255 200
+  SetBackgroundColor 196 190 190 200
   SetTextColor 0 22 95
-  SetBorderColor 249 0 0
+  SetBorderColor 152 148 148
   SetFontSize 45
   CustomAlertSound "check.mp3" 200
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Magic
   # BaseType ""
   BaseArmour > 1
   BaseEnergyShield < 1
   BaseEvasion > 1
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 255 255 255 200
+  SetBackgroundColor 21 0 255 200
   SetTextColor 0 22 95
-  SetBorderColor 249 0 0
+  SetBorderColor 54 0 249
   SetFontSize 45
   CustomAlertSound "check.mp3" 200
 
 Show
-  Rarity Normal Magic Rare
+  Rarity Rare
   # BaseType ""
   BaseArmour > 1
   BaseEnergyShield < 1
   BaseEvasion > 1
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 255 255 255 200
+  SetBackgroundColor 242 255 0 200
   SetTextColor 0 22 95
   SetBorderColor 216 249 0
   SetFontSize 45
@@ -228,7 +240,7 @@ Show
   BaseType "Heavy Belt"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 255 255 255 200
+  SetBackgroundColor 218 215 215 200
   SetTextColor 0 22 95
   SetBorderColor 110 137 139
   SetFontSize 45
@@ -239,7 +251,7 @@ Show
   BaseType "Heavy Belt"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 255 255 255 200
+  SetBackgroundColor 115 122 249 200
   SetTextColor 0 22 95
   SetBorderColor 62 94 255
   SetFontSize 45
@@ -250,7 +262,7 @@ Show
   BaseType "Heavy Belt"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 255 255 255 200
+  SetBackgroundColor 232 255 58 200
   SetTextColor 0 22 95
   SetBorderColor 216 249 0
   SetFontSize 45
@@ -265,7 +277,7 @@ Show
   BaseType "Citrine Amulet"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 255 255 255 200
+  SetBackgroundColor 215 215 215 200
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
   SetFontSize 45
@@ -276,7 +288,7 @@ Show
   BaseType "Citrine Amulet"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 255 255 255 200
+  SetBackgroundColor 91 116 253 200
   SetTextColor 0 22 95
   SetBorderColor 62 94 255
   SetFontSize 45
@@ -287,7 +299,7 @@ Show
   BaseType "Citrine Amulet"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 255 255 255 200
+  SetBackgroundColor 222 250 122 200
   SetTextColor 0 22 95
   SetBorderColor 216 249 0
   SetFontSize 45
@@ -302,9 +314,9 @@ Show
   BaseType "Bone Ring" "Amethyst Ring"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 255 255 255 200
+  SetBackgroundColor 189 189 189 200
   SetTextColor 0 22 95
-  SetBorderColor 249 0 0
+  SetBorderColor 201 201 201
   SetFontSize 45
   CustomAlertSound "check.mp3" 200
 
@@ -313,7 +325,7 @@ Show
   BaseType "Bone Ring" "Amethyst Ring"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 255 255 255 200
+  SetBackgroundColor 130 101 245 200
   SetTextColor 0 22 95
   SetBorderColor 62 94 255
   SetFontSize 45
@@ -324,7 +336,7 @@ Show
   BaseType "Bone Ring" "Amethyst Ring"
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
-  SetBackgroundColor 255 255 255 200
+  SetBackgroundColor 214 248 111 200
   SetTextColor 0 22 95
   SetBorderColor 216 249 0
   SetFontSize 45
