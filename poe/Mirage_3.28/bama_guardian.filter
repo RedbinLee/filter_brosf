@@ -32,7 +32,7 @@ Show
 
 # Show
 #   Rarity Normal 
-#   BaseType "Convoking Wand" "Convening Wand" "Calling Wand" "Ivory Bow" "Spine Bow" "Nailed Fist" "Cat's Paw" "Sparkling Claw" "Tiger's Paw" "Noble Claw" "Hellion's Paw" "Imperial Claw"
+#   BaseType "Convening Wand" "Calling Wand" "Ivory Bow" "Spine Bow" "Nailed Fist" "Cat's Paw" "Sparkling Claw" "Tiger's Paw" "Noble Claw" "Hellion's Paw" "Imperial Claw"
 #   MinimapIcon 0 Red Raindrop
 #   PlayEffect Red
 #   SetBackgroundColor 208 205 205 200
@@ -43,7 +43,7 @@ Show
 
 # Show
 #   Rarity Magic
-#   BaseType "Convoking Wand" "Convening Wand" "Calling Wand" "Ivory Bow" "Spine Bow" "Nailed Fist" "Cat's Paw" "Sparkling Claw" "Tiger's Paw" "Noble Claw" "Hellion's Paw" "Imperial Claw"
+#   BaseType "Convening Wand" "Calling Wand" "Ivory Bow" "Spine Bow" "Nailed Fist" "Cat's Paw" "Sparkling Claw" "Tiger's Paw" "Noble Claw" "Hellion's Paw" "Imperial Claw"
 #   MinimapIcon 0 Red Raindrop
 #   PlayEffect Red
 #   SetBackgroundColor 179 163 249 200
@@ -55,7 +55,7 @@ Show
 
 Show
   Rarity Rare
-  BaseType "Convoking Wand" "Spine Bow" "Imperial Claw"
+  BaseType "Spine Bow" "Imperial Claw"
   ItemLevel >= 74
   MinimapIcon 0 Red Raindrop
   PlayEffect Red
@@ -358,4 +358,4 @@ Show
   CustomAlertSound "check.mp3" 200
 
 
-Import "Default_all_strictnesses\Default_0_Soft.filter"
+Import "Default_all_strictnesses\Default_1_Regular.filter"
