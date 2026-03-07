@@ -30,27 +30,27 @@ Show
 # Weapon1
 #===============================================================================================================
 
-Show
-  Rarity Normal 
-  BaseType "Convoking Wand" "Convening Wand" "Calling Wand" "Ivory Bow" "Spine Bow" "Nailed Fist" "Cat's Paw" "Sparkling Claw" "Tiger's Paw" "Noble Claw" "Hellion's Paw" "Imperial Claw"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 208 205 205 200
-  SetTextColor 0 22 95
-  SetBorderColor 119 112 121
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Normal 
+#   BaseType "Convoking Wand" "Convening Wand" "Calling Wand" "Ivory Bow" "Spine Bow" "Nailed Fist" "Cat's Paw" "Sparkling Claw" "Tiger's Paw" "Noble Claw" "Hellion's Paw" "Imperial Claw"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 208 205 205 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 119 112 121
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
-Show
-  Rarity Magic
-  BaseType "Convoking Wand" "Convening Wand" "Calling Wand" "Ivory Bow" "Spine Bow" "Nailed Fist" "Cat's Paw" "Sparkling Claw" "Tiger's Paw" "Noble Claw" "Hellion's Paw" "Imperial Claw"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 179 163 249 200
-  SetTextColor 0 22 95
-  SetBorderColor 17 0 249
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Magic
+#   BaseType "Convoking Wand" "Convening Wand" "Calling Wand" "Ivory Bow" "Spine Bow" "Nailed Fist" "Cat's Paw" "Sparkling Claw" "Tiger's Paw" "Noble Claw" "Hellion's Paw" "Imperial Claw"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 179 163 249 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 17 0 249
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 
 Show
@@ -70,27 +70,27 @@ Show
 # Weapon2
 #===============================================================================================================
 
-Show
-  Rarity Normal
-  BaseType "Penetrating Arrow Quiver" "Broadhead Arrow Quiver"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 255 255 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 187 196 214
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Normal
+#   BaseType "Penetrating Arrow Quiver" "Broadhead Arrow Quiver"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 187 196 214
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
-Show
-  Rarity Magic 
-  BaseType "Penetrating Arrow Quiver" "Broadhead Arrow Quiver"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 70 42 248 200
-  SetTextColor 0 22 95
-  SetBorderColor 46 0 249
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Magic 
+#   BaseType "Penetrating Arrow Quiver" "Broadhead Arrow Quiver"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 70 42 248 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 46 0 249
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 Show
   Rarity Rare
@@ -125,33 +125,33 @@ Show
 # Body Armour
 #===============================================================================================================
 
-Show
-  Rarity Normal
-  # BaseType ""
-  BaseArmour > 1
-  BaseEnergyShield < 1
-  BaseEvasion > 1
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 196 190 190 200
-  SetTextColor 0 22 95
-  SetBorderColor 152 148 148
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Normal
+#   # BaseType ""
+#   BaseArmour > 1
+#   BaseEnergyShield < 1
+#   BaseEvasion > 1
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 196 190 190 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 152 148 148
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
-Show
-  Rarity Magic
-  # BaseType ""
-  BaseArmour > 1
-  BaseEnergyShield < 1
-  BaseEvasion > 1
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 21 0 255 200
-  SetTextColor 0 22 95
-  SetBorderColor 54 0 249
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Magic
+#   # BaseType ""
+#   BaseArmour > 1
+#   BaseEnergyShield < 1
+#   BaseEvasion > 1
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 21 0 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 54 0 249
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 Show
   Rarity Rare
@@ -235,27 +235,27 @@ Show
 # Belt
 #===============================================================================================================
 
-Show
-  Rarity Normal 
-  BaseType "Heavy Belt"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 218 215 215 200
-  SetTextColor 0 22 95
-  SetBorderColor 110 137 139
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Normal 
+#   BaseType "Heavy Belt"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 218 215 215 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 110 137 139
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
-Show
-  Rarity Magic
-  BaseType "Heavy Belt"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 115 122 249 200
-  SetTextColor 0 22 95
-  SetBorderColor 62 94 255
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Magic
+#   BaseType "Heavy Belt"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 115 122 249 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 62 94 255
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 Show
   Rarity Rare
@@ -272,27 +272,27 @@ Show
 # Amulet
 #===============================================================================================================
 
-Show
-  Rarity Normal
-  BaseType "Citrine Amulet"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 215 215 215 200
-  SetTextColor 0 22 95
-  SetBorderColor 249 0 0
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Normal
+#   BaseType "Citrine Amulet"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 215 215 215 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
-Show
-  Rarity Magic
-  BaseType "Citrine Amulet"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 91 116 253 200
-  SetTextColor 0 22 95
-  SetBorderColor 62 94 255
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Magic
+#   BaseType "Citrine Amulet"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 91 116 253 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 62 94 255
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 Show
   Rarity Rare
@@ -309,27 +309,27 @@ Show
 # Ring
 #===============================================================================================================
 
-Show
-  Rarity Normal
-  BaseType "Bone Ring" "Amethyst Ring"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 189 189 189 200
-  SetTextColor 0 22 95
-  SetBorderColor 201 201 201
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Normal
+#   BaseType "Bone Ring" "Amethyst Ring"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 189 189 189 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 201 201 201
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
-Show
-  Rarity Magic
-  BaseType "Bone Ring" "Amethyst Ring"
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 130 101 245 200
-  SetTextColor 0 22 95
-  SetBorderColor 62 94 255
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Magic
+#   BaseType "Bone Ring" "Amethyst Ring"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 130 101 245 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 62 94 255
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
 
 Show
   Rarity Rare
