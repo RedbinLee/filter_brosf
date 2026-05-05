@@ -30,27 +30,27 @@
 # Weapon1
 #===============================================================================================================
 
-# Show
-#   Rarity Normal 
-#   BaseType "Convening Wand" "Calling Wand" "Ivory Bow" "Spine Bow" "Nailed Fist" "Cat's Paw" "Sparkling Claw" "Tiger's Paw" "Noble Claw" "Hellion's Paw" "Imperial Claw"
-#   MinimapIcon 0 Red Raindrop
-#   PlayEffect Red
-#   SetBackgroundColor 208 205 205 200
-#   SetTextColor 0 22 95
-#   SetBorderColor 119 112 121
-#   SetFontSize 45
-#   CustomAlertSound "check.mp3" 200
+Show
+  Rarity Normal 
+  BaseType "Kinetic Wand"
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 208 205 205 200
+  SetTextColor 0 22 95
+  SetBorderColor 119 112 121
+  SetFontSize 45
+  CustomAlertSound "check.mp3" 200
 
-# Show
-#   Rarity Magic
-#   BaseType "Convening Wand" "Calling Wand" "Ivory Bow" "Spine Bow" "Nailed Fist" "Cat's Paw" "Sparkling Claw" "Tiger's Paw" "Noble Claw" "Hellion's Paw" "Imperial Claw"
-#   MinimapIcon 0 Red Raindrop
-#   PlayEffect Red
-#   SetBackgroundColor 179 163 249 200
-#   SetTextColor 0 22 95
-#   SetBorderColor 17 0 249
-#   SetFontSize 45
-#   CustomAlertSound "check.mp3" 200
+Show
+  Rarity Magic
+  BaseType "Kinetic Wand"
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 179 163 249 200
+  SetTextColor 0 22 95
+  SetBorderColor 17 0 249
+  SetFontSize 45
+  CustomAlertSound "check.mp3" 200
 
 Show
 	Rarity Rare
