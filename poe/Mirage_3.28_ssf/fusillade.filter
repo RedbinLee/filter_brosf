@@ -282,6 +282,7 @@ Hide
 	ItemLevel > 84
 	Continue
 		Show
+			BaseType "Heavy Belt" "Stygian Vise"
 			Rarity Rare
 			ItemLevel >= 72
 			MinimapIcon 0 Red Raindrop
