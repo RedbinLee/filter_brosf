@@ -1,0 +1,382 @@
+### If you want to change the stricness of the filterblade
+### import this customized filter from the particular filter of the filterblade.
+
+### If you want to change the default filterblade filter's stricness
+### Go to the bottom of this file to find import part and change the imported file name to one of the names below:
+### Default_0_Soft.filter
+### Default_1_Regular.filter
+### Default_2_Semi-Strict.filter
+### Default_3_Strict.filter
+### Default_4_Very Strict.filter
+### Default_5_Uber Strict.filter
+### Default_6_Uber Plus Strict.filter
+
+#===============================================================================================================
+# Uniuqe
+#===============================================================================================================
+
+# Show
+#   Rarity Unique
+#   BaseType "Bone Helmet" "Festival Mask" "Reinforced Greaves" "Gold Amulet" "Stygian Vise" "Seaglass Amulet" "Saintly Chainmail"
+#   MinimapIcon 0 Purple Raindrop
+#   PlayEffect Purple
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "wow.mp3" 200
+
+#===============================================================================================================
+# Weapon1
+#===============================================================================================================
+
+# Show
+#   Rarity Normal 
+#   BaseType "Convening Wand" "Calling Wand" "Ivory Bow" "Spine Bow" "Nailed Fist" "Cat's Paw" "Sparkling Claw" "Tiger's Paw" "Noble Claw" "Hellion's Paw" "Imperial Claw"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 208 205 205 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 119 112 121
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
+
+# Show
+#   Rarity Magic
+#   BaseType "Convening Wand" "Calling Wand" "Ivory Bow" "Spine Bow" "Nailed Fist" "Cat's Paw" "Sparkling Claw" "Tiger's Paw" "Noble Claw" "Hellion's Paw" "Imperial Claw"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 179 163 249 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 17 0 249
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
+
+
+Show
+  Rarity Rare
+  BaseType "Kinetic Wand"
+  ItemLevel >= 74
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 208 242 135 200
+  SetTextColor 0 22 95
+  SetBorderColor 242 255 0
+  SetFontSize 45
+  CustomAlertSound "metal-alert-effect.mp3" 200
+
+
+#===============================================================================================================
+# Weapon2
+#===============================================================================================================
+
+# Show
+#   Rarity Normal
+#   BaseType "Penetrating Arrow Quiver" "Broadhead Arrow Quiver"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 187 196 214
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
+
+# Show
+#   Rarity Magic 
+#   BaseType "Penetrating Arrow Quiver" "Broadhead Arrow Quiver"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 70 42 248 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 46 0 249
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
+
+# Show
+#   Rarity Rare
+#   BaseType "Penetrating Arrow Quiver" "Broadhead Arrow Quiver"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 211 243 33 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 232 249 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
+
+#===============================================================================================================
+# Helmet
+#===============================================================================================================
+
+Hide
+  Rarity Rare
+  BaseType "Divine Crown" "Paladin Crown"
+  # BaseArmour > 1
+  # BaseEnergyShield < 1
+  # BaseEvasion > 1
+  ItemLevel > 84
+	Continue
+		Show
+			ItemLevel >= 72
+			MinimapIcon 0 Red Raindrop
+			PlayEffect Red
+			SetBackgroundColor 232 255 58 200
+			SetTextColor 0 22 95
+			SetBorderColor 216 249 0
+			SetFontSize 45
+  		CustomAlertSound "check.mp3" 200
+
+#===============================================================================================================
+# Body Armour
+#===============================================================================================================
+
+# Show
+#   Rarity Normal
+#   # BaseType ""
+#   BaseArmour > 1
+#   BaseEnergyShield < 1
+#   BaseEvasion > 1
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 196 190 190 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 152 148 148
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
+
+# Show
+#   Rarity Magic
+#   # BaseType ""
+#   BaseArmour > 1
+#   BaseEnergyShield < 1
+#   BaseEvasion > 1
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 21 0 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 54 0 249
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
+
+Hide
+  Rarity Rare
+  BaseType "Sacred Chainmail" "Paladin's Hauberk"
+  # BaseArmour > 1
+  # BaseEnergyShield < 1
+  # BaseEvasion > 1
+  ItemLevel > 84
+	Continue
+		Show
+			ItemLevel >= 72
+			MinimapIcon 0 Red Raindrop
+			PlayEffect Red
+			SetBackgroundColor 232 255 58 200
+			SetTextColor 0 22 95
+			SetBorderColor 216 249 0
+			SetFontSize 45
+  		CustomAlertSound "check.mp3" 200
+
+#===============================================================================================================
+# Gloves
+#===============================================================================================================
+
+Hide
+  Rarity Rare
+  BaseType "Paladin Gloves" "Martyr Gloves"
+  # BaseArmour > 1
+  # BaseEnergyShield < 1
+  # BaseEvasion > 1
+  ItemLevel > 84
+	Continue
+		Show
+			ItemLevel >= 72
+			MinimapIcon 0 Red Raindrop
+			PlayEffect Red
+			SetBackgroundColor 232 255 58 200
+			SetTextColor 0 22 95
+			SetBorderColor 216 249 0
+			SetFontSize 45
+  		CustomAlertSound "check.mp3" 200
+
+#===============================================================================================================
+# Boots
+#===============================================================================================================
+
+# Show
+#   Rarity Normal
+#   # BaseType ""
+#   BaseArmour > 1
+#   BaseEnergyShield < 1
+#   BaseEvasion > 1
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
+
+# Show
+#   Rarity Magic
+#   # BaseType ""
+#   BaseArmour > 1
+#   BaseEnergyShield < 1
+#   BaseEvasion > 1
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
+
+Hide
+  Rarity Rare
+  BaseType "Paladin Boots" "Martyr Boots"
+  # BaseArmour > 1
+  # BaseEnergyShield < 1
+  # BaseEvasion > 1
+  ItemLevel > 84
+	Continue
+		Show
+			ItemLevel >= 72
+			MinimapIcon 0 Red Raindrop
+			PlayEffect Red
+			SetBackgroundColor 232 255 58 200
+			SetTextColor 0 22 95
+			SetBorderColor 216 249 0
+			SetFontSize 45
+  		CustomAlertSound "check.mp3" 200
+
+#===============================================================================================================
+# Belt
+#===============================================================================================================
+
+# Show
+#   Rarity Normal 
+#   BaseType "Heavy Belt"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 218 215 215 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 110 137 139
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
+
+# Show
+#   Rarity Magic
+#   BaseType "Heavy Belt"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 115 122 249 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 62 94 255
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
+
+Hide
+	Rarity Rare
+	BaseType "Heavy Belt" "Stygian Vise"
+	ItemLevel > 84
+	Continue
+		Show
+			ItemLevel >= 72
+			MinimapIcon 0 Red Raindrop
+			PlayEffect Red
+			SetBackgroundColor 232 255 58 200
+			SetTextColor 0 22 95
+			SetBorderColor 216 249 0
+			SetFontSize 45
+  		CustomAlertSound "check.mp3" 200
+
+#===============================================================================================================
+# Amulet
+#===============================================================================================================
+
+# Show
+#   Rarity Normal
+#   BaseType "Citrine Amulet"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 215 215 215 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
+
+# Show
+#   Rarity Magic
+#   BaseType "Citrine Amulet"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 91 116 253 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 62 94 255
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
+
+# Show
+#   Rarity Rare
+#   BaseType "Citrine Amulet"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 222 250 122 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 216 249 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
+
+#===============================================================================================================
+# Ring
+#===============================================================================================================
+
+# Show
+#   Rarity Normal
+#   BaseType "Bone Ring" "Amethyst Ring"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 189 189 189 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 201 201 201
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
+
+# Show
+#   Rarity Magic
+#   BaseType "Bone Ring" "Amethyst Ring"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 130 101 245 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 62 94 255
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
+
+Show
+  Rarity Rare
+  BaseType "Amethyst Ring"
+	ItemLevel >= 77
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 214 248 111 200
+  SetTextColor 0 22 95
+  SetBorderColor 216 249 0
+  SetFontSize 45
+  CustomAlertSound "check.mp3" 200
+
+#===============================================================================================================
+# Jewel
+#===============================================================================================================
+
+#  Show
+#   BaseType "Ghastly Eye Jewel"
+#   # HasExplicitMod >= 1 "HONED" "of Infusion" "of Freezing"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
+
+
+Import "Default_all_strictnesses\Default_2_Semi-Strict.filter"
