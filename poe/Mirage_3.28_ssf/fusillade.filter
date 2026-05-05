@@ -108,7 +108,6 @@ Show
 #===============================================================================================================
 
 Hide
-  Rarity Rare
   BaseType "Divine Crown" "Paladin Crown"
   # BaseArmour > 1
   # BaseEnergyShield < 1
@@ -116,6 +115,8 @@ Hide
   ItemLevel > 84
 	Continue
 		Show
+			Rarity Rare
+  		BaseType "Divine Crown" "Paladin Crown"
 			ItemLevel >= 72
 			MinimapIcon 0 Red Raindrop
 			PlayEffect Red
@@ -158,7 +159,6 @@ Hide
 #   CustomAlertSound "check.mp3" 200
 
 Hide
-  Rarity Rare
   BaseType "Sacred Chainmail" "Paladin's Hauberk"
   # BaseArmour > 1
   # BaseEnergyShield < 1
@@ -166,6 +166,8 @@ Hide
   ItemLevel > 84
 	Continue
 		Show
+			Rarity Rare
+  		BaseType "Sacred Chainmail" "Paladin's Hauberk"
 			ItemLevel >= 72
 			MinimapIcon 0 Red Raindrop
 			PlayEffect Red
@@ -180,7 +182,6 @@ Hide
 #===============================================================================================================
 
 Hide
-  Rarity Rare
   BaseType "Paladin Gloves" "Martyr Gloves"
   # BaseArmour > 1
   # BaseEnergyShield < 1
@@ -188,6 +189,8 @@ Hide
   ItemLevel > 84
 	Continue
 		Show
+			Rarity Rare
+  		BaseType "Paladin Gloves" "Martyr Gloves"
 			ItemLevel >= 72
 			MinimapIcon 0 Red Raindrop
 			PlayEffect Red
@@ -230,7 +233,6 @@ Hide
 #   CustomAlertSound "check.mp3" 200
 
 Hide
-  Rarity Rare
   BaseType "Paladin Boots" "Martyr Boots"
   # BaseArmour > 1
   # BaseEnergyShield < 1
@@ -238,6 +240,8 @@ Hide
   ItemLevel > 84
 	Continue
 		Show
+			Rarity Rare
+  		BaseType "Paladin Boots" "Martyr Boots"
 			ItemLevel >= 72
 			MinimapIcon 0 Red Raindrop
 			PlayEffect Red
@@ -274,11 +278,11 @@ Hide
 #   CustomAlertSound "check.mp3" 200
 
 Hide
-	Rarity Rare
 	BaseType "Heavy Belt" "Stygian Vise"
 	ItemLevel > 84
 	Continue
 		Show
+			Rarity Rare
 			ItemLevel >= 72
 			MinimapIcon 0 Red Raindrop
 			PlayEffect Red
