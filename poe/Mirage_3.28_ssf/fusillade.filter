@@ -52,18 +52,17 @@
 #   SetFontSize 45
 #   CustomAlertSound "check.mp3" 200
 
-
 Show
-  Rarity Rare
-  BaseType "Kinetic Wand"
-  ItemLevel >= 74
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 208 242 135 200
-  SetTextColor 0 22 95
-  SetBorderColor 242 255 0
-  SetFontSize 45
-  CustomAlertSound "metal-alert-effect.mp3" 200
+	Rarity Rare
+	BaseType "Kinetic Wand"
+	ItemLevel >= 74
+	MinimapIcon 0 Red Raindrop
+	PlayEffect Red
+	SetBackgroundColor 208 242 135 200
+	SetTextColor 0 22 95
+	SetBorderColor 242 255 0
+	SetFontSize 45
+	CustomAlertSound "metal-alert-effect.mp3" 200
 
 
 #===============================================================================================================
@@ -104,30 +103,30 @@ Show
 #   CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
-# Helmet
+# Helmets
 #===============================================================================================================
 
 Hide
-  BaseType "Divine Crown" "Paladin Crown"
+  Class "Helmets"
   # BaseArmour > 1
   # BaseEnergyShield < 1
   # BaseEvasion > 1
   ItemLevel > 84
 	Continue
-		Show
-			Rarity Rare
-  		BaseType "Divine Crown" "Paladin Crown"
-			ItemLevel >= 72
-			MinimapIcon 0 Red Raindrop
-			PlayEffect Red
-			SetBackgroundColor 232 255 58 200
-			SetTextColor 0 22 95
-			SetBorderColor 216 249 0
-			SetFontSize 45
-  		CustomAlertSound "check.mp3" 200
+	Show
+		Rarity Rare
+		BaseType "Divine Crown" "Paladin Crown"
+		ItemLevel >= 72
+		MinimapIcon 0 Red Raindrop
+		PlayEffect Red
+		SetBackgroundColor 232 255 58 200
+		SetTextColor 0 22 95
+		SetBorderColor 216 249 0
+		SetFontSize 45
+		CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
-# Body Armour
+# Body Armours
 #===============================================================================================================
 
 # Show
@@ -158,31 +157,34 @@ Hide
 #   SetFontSize 45
 #   CustomAlertSound "check.mp3" 200
 
+
 Hide
-  BaseType "Sacred Chainmail" "Paladin's Hauberk"
+  Class "Body Armours"
   # BaseArmour > 1
   # BaseEnergyShield < 1
   # BaseEvasion > 1
   ItemLevel > 84
 	Continue
-		Show
-			Rarity Rare
-  		BaseType "Sacred Chainmail" "Paladin's Hauberk"
-			ItemLevel >= 72
-			MinimapIcon 0 Red Raindrop
-			PlayEffect Red
-			SetBackgroundColor 232 255 58 200
-			SetTextColor 0 22 95
-			SetBorderColor 216 249 0
-			SetFontSize 45
-  		CustomAlertSound "check.mp3" 200
+	Show
+		Rarity Rare
+		BaseType "Sacred Chainmail" "Paladin's Hauberk"
+		ItemLevel >= 72
+		MinimapIcon 0 Red Raindrop
+		PlayEffect Red
+		SetBackgroundColor 232 255 58 200
+		SetTextColor 0 22 95
+		SetBorderColor 216 249 0
+		SetFontSize 45
+		CustomAlertSound "check.mp3" 200
+
+
 
 #===============================================================================================================
 # Gloves
 #===============================================================================================================
 
 Hide
-  BaseType "Paladin Gloves" "Martyr Gloves"
+  Class "Gloves"
   # BaseArmour > 1
   # BaseEnergyShield < 1
   # BaseEvasion > 1
@@ -233,26 +235,26 @@ Hide
 #   CustomAlertSound "check.mp3" 200
 
 Hide
-  BaseType "Paladin Boots" "Martyr Boots"
+  Class "Boots"
   # BaseArmour > 1
   # BaseEnergyShield < 1
   # BaseEvasion > 1
   ItemLevel > 84
 	Continue
-		Show
-			Rarity Rare
-  		BaseType "Paladin Boots" "Martyr Boots"
-			ItemLevel >= 72
-			MinimapIcon 0 Red Raindrop
-			PlayEffect Red
-			SetBackgroundColor 232 255 58 200
-			SetTextColor 0 22 95
-			SetBorderColor 216 249 0
-			SetFontSize 45
-  		CustomAlertSound "check.mp3" 200
+	Show
+		Rarity Rare
+		BaseType "Paladin Boots" "Martyr Boots"
+		ItemLevel >= 72
+		MinimapIcon 0 Red Raindrop
+		PlayEffect Red
+		SetBackgroundColor 232 255 58 200
+		SetTextColor 0 22 95
+		SetBorderColor 216 249 0
+		SetFontSize 45
+		CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
-# Belt
+# Belts
 #===============================================================================================================
 
 # Show
@@ -278,23 +280,23 @@ Hide
 #   CustomAlertSound "check.mp3" 200
 
 Hide
-	BaseType "Heavy Belt" "Stygian Vise"
+	Class "Belts"
 	ItemLevel > 84
 	Continue
-		Show
-			BaseType "Heavy Belt" "Stygian Vise"
-			Rarity Rare
-			ItemLevel >= 72
-			MinimapIcon 0 Red Raindrop
-			PlayEffect Red
-			SetBackgroundColor 232 255 58 200
-			SetTextColor 0 22 95
-			SetBorderColor 216 249 0
-			SetFontSize 45
-  		CustomAlertSound "check.mp3" 200
+	Show
+		Rarity Rare
+		BaseType "Heavy Belt" "Stygian Vise"
+		ItemLevel >= 72
+		MinimapIcon 0 Red Raindrop
+		PlayEffect Red
+		SetBackgroundColor 232 255 58 200
+		SetTextColor 0 22 95
+		SetBorderColor 216 249 0
+		SetFontSize 45
+		CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
-# Amulet
+# Amulets
 #===============================================================================================================
 
 # Show
@@ -331,7 +333,7 @@ Hide
 #   CustomAlertSound "check.mp3" 200
 
 #===============================================================================================================
-# Ring
+# Rings
 #===============================================================================================================
 
 # Show
@@ -384,4 +386,4 @@ Show
 #   CustomAlertSound "check.mp3" 200
 
 
-Import "Default_all_strictnesses\Default_2_Semi-Strict.filter"
+Import "Default_all_strictnesses\Default_3_Strict.filter"

@@ -153,19 +153,7 @@ Show
 #   SetFontSize 45
 #   CustomAlertSound "check.mp3" 200
 
-Show
-  Rarity Rare
-  # BaseType ""
-  BaseArmour > 1
-  BaseEnergyShield < 1
-  BaseEvasion > 1
-  MinimapIcon 0 Red Raindrop
-  PlayEffect Red
-  SetBackgroundColor 242 255 0 200
-  SetTextColor 0 22 95
-  SetBorderColor 216 249 0
-  SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+Showz
 
 #===============================================================================================================
 # Gloves
