@@ -1,0 +1,295 @@
+### If you want to change the stricness of the filterblade
+### import this customized filter from the particular filter of the filterblade.
+
+### If you want to change the default filterblade filter's stricness
+### Go to the bottom of this file to find import part and change the imported file name to one of the names below:
+### Default_0_Soft.filter
+### Default_1_Soft.filter
+### Default_2_Semi-Strict.filter
+### Default_3_Strict.filter
+### Default_4_Very Strict.filter
+### Default_5_Uber Strict.filter
+### Default_6_Uber Plus Strict.filter
+
+#===============================================================================================================
+# Uniuqe
+#===============================================================================================================
+
+# Show
+#   Rarity Unique
+#   BaseType ""
+#   MinimapIcon 0 Purple Raindrop
+#   PlayEffect Purple
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "wow.mp3" 200
+
+#===============================================================================================================
+# Weapon1
+#===============================================================================================================
+
+Show
+  Rarity Normal Magic Rare
+	MemoryStrands > 0
+  BaseType "Ethereal Bow" "Spine Bow" "Jewelled Foil" "Spiraled Foil" "Vaal Hatchet" "Disapprobation Axe" "Psychotic Axe" "Lion Sword" "Despot Axe"
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "metal-alert-effect.mp3" 200
+
+Show
+  Rarity Normal Magic Rare
+  BaseType "Ethereal Bow" "Spine Bow" "Jewelled Foil" "Spiraled Foil" "Vaal Hatchet" "Disapprobation Axe" "Psychotic Axe" "Lion Sword" "Despot Axe"
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check.mp3" 200
+# Show
+#   Rarity Rare
+#   BaseType ""
+#   ItemLevel >= 74
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "metal-alert-effect.mp3" 200
+
+
+#===============================================================================================================
+# Weapon2
+#===============================================================================================================
+
+Show
+  Rarity Normal Magic Rare
+	MemoryStrands > 0
+  BaseType "Pinnacle Tower Shield" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Primal Arrow Quiver"
+  # BaseArmour
+  # BaseEnergyShield
+  # BaseEvasion
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "metal-alert-effect.mp3" 200
+
+Show
+  Rarity Normal Magic Rare
+  BaseType "Pinnacle Tower Shield" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Primal Arrow Quiver"
+  # BaseArmour
+  # BaseEnergyShield
+  # BaseEvasion
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check.mp3" 200
+
+#===============================================================================================================
+# Helmet
+#===============================================================================================================
+
+Show
+  Rarity Normal Magic Rare
+	MemoryStrands > 0
+  BaseType "Giantslayer Helmet" "Majestic Pelt" "Lich's Circlet" "Haunted Bascinet" "Penitent Mask" "Divine Crown" "Archdemon Crown" "Torturer's Mask" "Bone Helmet"
+  # BaseArmour
+  # BaseEnergyShield
+  # BaseEvasion
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "metal-alert-effect.mp3" 200
+
+Show
+  Rarity Normal Magic Rare
+  BaseType "Giantslayer Helmet" "Majestic Pelt" "Lich's Circlet" "Haunted Bascinet" "Penitent Mask" "Divine Crown" "Archdemon Crown" "Torturer's Mask" "Bone Helmet"
+  # BaseArmour
+  # BaseEnergyShield
+  # BaseEvasion
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check.mp3" 200
+
+#===============================================================================================================
+# Body Armour
+#===============================================================================================================
+
+Show
+  Rarity Normal Magic Rare
+	MemoryStrands > 0
+  BaseType "Royal Plate" "Syndicate's Garb" "Twilight Regalia" "Conquest Lamellar" "Sacred Chainmail" "Necrotic Armour"
+  # BaseArmour
+  # BaseEnergyShield
+  # BaseEvasion
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "metal-alert-effect.mp3" 200
+
+Show
+  Rarity Normal Magic Rare
+  BaseType "Royal Plate" "Syndicate's Garb" "Twilight Regalia" "Conquest Lamellar" "Sacred Chainmail" "Necrotic Armour"
+  # BaseArmour
+  # BaseEnergyShield
+  # BaseEvasion
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check.mp3" 200
+
+#===============================================================================================================
+# Gloves
+#===============================================================================================================
+
+Show
+  Rarity Normal Magic Rare
+	MemoryStrands > 0
+  BaseType "Leviathan Gauntlets" "Velour Gloves" "Warlock Gloves" "Wyvernscale Gauntlets" "Paladin Gloves" "Phantom Mitts"
+  # BaseArmour
+  # BaseEnergyShield
+  # BaseEvasion
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "metal-alert-effect.mp3" 200
+
+Show
+  Rarity Normal Magic Rare
+  BaseType "Leviathan Gauntlets" "Velour Gloves" "Warlock Gloves" "Wyvernscale Gauntlets" "Paladin Gloves" "Phantom Mitts"
+  # BaseArmour
+  # BaseEnergyShield
+  # BaseEvasion
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check.mp3" 200
+
+#===============================================================================================================
+# Boots
+#===============================================================================================================
+
+Show
+  Rarity Normal Magic Rare
+	MemoryStrands > 0
+  BaseType "Leviathan Greaves" "Velour Boots" "Warlock Boots" "Wyvernscale Boots" "Paladin Boots" "Phantom Boots"
+  # BaseArmour
+  # BaseEnergyShield
+  # BaseEvasion
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "metal-alert-effect.mp3" 200
+
+Show
+  Rarity Normal Magic Rare
+  BaseType "Leviathan Greaves" "Velour Boots" "Warlock Boots" "Wyvernscale Boots" "Paladin Boots" "Phantom Boots"
+  # BaseArmour
+  # BaseEnergyShield
+  # BaseEvasion
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check.mp3" 200
+
+#===============================================================================================================
+# Belt
+#===============================================================================================================
+
+Show
+  Rarity Normal Magic Rare
+	MemoryStrands > 0
+  BaseType "Stygian Vise"
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "metal-alert-effect.mp3" 200
+
+#===============================================================================================================
+# Amulet
+#===============================================================================================================
+
+# Show
+#   Rarity Normal Magic Rare
+#   BaseType ""
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
+
+#===============================================================================================================
+# Ring
+#===============================================================================================================
+
+Show
+  Rarity Normal Magic Rare
+	MemoryStrands > 0
+  BaseType "Vermillion Ring" "Amethyst Ring"
+  MinimapIcon 0 Red Raindrop
+  PlayEffect Red
+  SetBackgroundColor 255 255 255 200
+  SetTextColor 0 22 95
+  SetBorderColor 249 0 0
+  SetFontSize 45
+  CustomAlertSound "check.mp3" 200
+
+#===============================================================================================================
+# Jewel
+#===============================================================================================================
+
+#  Show
+#   HasExplicitMod >= # 1 "HONED" "of Infusion" "of Freezing"
+#   MinimapIcon 0 Red Raindrop
+#   PlayEffect Red
+#   SetBackgroundColor 255 255 255 200
+#   SetTextColor 0 22 95
+#   SetBorderColor 249 0 0
+#   SetFontSize 45
+#   CustomAlertSound "check.mp3" 200
+
+
+Import "Default_all_strictnesses\nameofthefilter.filter"
