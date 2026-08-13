@@ -275,7 +275,7 @@ Show
   SetTextColor 0 22 95
   SetBorderColor 249 0 0
   SetFontSize 45
-  CustomAlertSound "check.mp3" 200
+  CustomAlertSound "metal-alert-effect.mp3" 200
 
 #===============================================================================================================
 # Jewel
